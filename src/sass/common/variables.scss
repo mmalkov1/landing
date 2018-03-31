@@ -1,0 +1,35 @@
+// colors
+$hdr-f-grey: #afb0b3; //серый текст в хедере
+$f-white: #ffffff; // белый текст
+$f-black: #000000; // черный текст
+$f-grey: #f2f2f2; // серый фоновый текст 
+$f-grey-light: #f7f7f7; // темно-серый фоновый текст
+$lb-grey: #C0C0C0; // серый текст на лейблах
+$ftr-f-grey: #a2a2a2; // серый текст в футере
+$ftr-b:  #181c27; // синий бекграунд футера
+$ftr-b2: #202020; // темно серый бекграунд футера
+$ftr-f-grey2: #65666a; //темно-серый текст футера 
+$orange: #FF6B00; //оранжевый
+$blue: #00EBFF; //голубой
+// fonts
+$main-font: 'Acrom', sans-serif;
+//mixins 
+@mixin button ($width, $padding, $fz) {
+	width: $width;
+	padding-top: $padding;
+	padding-bottom: $padding;
+	font-size: $fz;
+	color: $f-white;
+	background-color: $orange;
+	font-family: $main-font;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color .2s;
+	box-shadow: 0px 15px 10px -5px #FBDAC8;
+
+	&:hover {
+		background-color: $blue;
+		box-shadow: none;
+	}
+}

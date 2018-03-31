@@ -19,6 +19,7 @@ const concat = require('gulp-concat');
 const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
 const sequence = require('run-sequence');
+const fileinclude = require('gulp-file-include'); 
 
 gulp.task('html', () =>
   gulp
@@ -30,12 +31,21 @@ gulp.task('html', () =>
       }),
     )
     .pipe(gulp.dest('./build')),
+
 );
+
+gulp.task('pages', function() {
+    gulp.src([`src/index.html`])
+        .pipe(fileinclude({
+            prefix: '@@',
+            basepath: 'src/'
+        }))
+        .pipe(gulp.dest('build/'));
+});
 
 gulp.task('styles', () =>
   gulp
-    .src('./src/sass/styles.scss')
-    .pipe(plumber())
+    .src('./src/sass/main.scss')
     .pipe(
       stylelint({
         reporters: [{ formatter: 'string', console: true }],
@@ -43,7 +53,7 @@ gulp.task('styles', () =>
     )
     .pipe(sass())
     .pipe(postcss([autoprefixer()]))
-    .pipe(gcmq())
+    
     .pipe(gulp.dest('./build/css'))
     .pipe(cssnano())
     .pipe(rename('styles.min.css'))
@@ -99,8 +109,12 @@ gulp.task('fonts', () =>
 );
 
 gulp.task('watch', () => {
-  gulp.watch('src/*.html', ['html']).on('change', browserSync.reload);
+  gulp.watch('src/*.html', ['pages']).on('change', browserSync.reload);
+  gulp.watch('src/blocks/*.html', ['pages']).on('change', browserSync.reload);
+  gulp.watch('src/sass/main.scss', ['styles']);
   gulp.watch('src/sass/**/*.scss', ['styles']);
+  gulp.watch('src/sass/blocks/**/*.scss', ['styles']);
+  gulp.watch('src/sass/common/*.scss', ['styles']);
   gulp.watch('src/js/**/*.js', ['scripts']);
 });
 
@@ -129,6 +143,7 @@ gulp.task('build', cb =>
     'fonts',
     'styles',
     'html',
+    'pages',
     'scripts',
     cb,
   ),
