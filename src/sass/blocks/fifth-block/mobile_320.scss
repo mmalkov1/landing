@@ -1,0 +1,126 @@
+.fifth-block {
+	width: 100%;
+	padding: 0 10px;
+
+	.info {
+		padding-top: 10px;
+		padding-left: 25px;
+		width: 63%;
+		margin: 0 auto 25px;
+
+		&__heading {
+			display: block;
+			width: 82%;
+			font-size: 12px;
+			font-weight: 800;
+			color: $f-black;
+			text-transform: uppercase;
+			margin-bottom: 25px;			
+		}
+
+		&__text {
+			position: relative;
+			font-size: 9px;
+			font-weight: 500;
+
+			&:before {
+				content: '\2014';
+				position: absolute;
+				left: -30px;
+				top: 4px;
+				line-height: 0;
+				font-size: 28px;
+				font-weight: 800;
+			}
+		}
+	}
+	.reviews {
+		width: 65%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+
+		&__block {
+			display: flex;
+			padding: 13px 6%;
+			margin-bottom: 5px;
+			box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15);
+		}
+
+		&__img__block {
+			flex-basis: 25%;
+		}
+
+		&__image {
+			width: 37px;
+			height: auto;
+		}
+
+		&__name {
+			font-size: 4px;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+
+		&__text {
+			font-size: 4px;
+			max-height: 115px;
+			overflow-y: scroll;
+			padding: 0 5%;
+		}
+		&__pagination-block {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__page {
+			line-height: 3px;
+			margin-left: 10%;
+		}
+
+		&__count {
+			font-size: 3px;
+
+			&_active {
+				font-size: 5px;
+				text-decoration: line-through;
+			}
+		}
+
+		&__navigation {
+			line-height: 10px;
+			flex-basis: 20%;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		&__navigate-btn {
+			position: relative;
+			top: -5px;
+			width: 10px;
+			height: 10px;
+			background-color: $f-black;
+			text-align: center;
+			line-height: 8px;
+
+			&_prev {
+				left: -1px;
+
+				&:before {
+					content: '\2039';
+					display: block;
+					color: $f-white;
+				}
+			}
+
+			&_next {
+
+				&:before {
+					content: '\203A';
+					display: block;
+					color: $f-white;
+				}
+			}
+		}
+
+	}
+}

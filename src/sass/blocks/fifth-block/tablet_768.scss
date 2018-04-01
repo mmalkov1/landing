@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px) {
+	.fifth-block {
+		width: 640px;
+		margin: auto;
+		padding: 55px 0;
+		display: flex;
+		align-items: flex-start;
+		align-content: flex-start;
+		justify-content: space-between;
+
+		.info {
+			padding-top: 0;
+			padding-left: 0;
+			flex-basis: 33%;
+
+			&__heading {
+				font-size: 27px;
+				margin-bottom: 35px;
+			}
+
+			&__text {
+				font-size: 9px;
+				margin: 0 45px;
+
+				&:before {
+					left: -45px;
+					top: 4px;
+					font-size: 40px;
+					font-weight: 800;
+				}
+			}
+		}
+
+		.reviews {
+
+			&__block {
+				padding: 30px;
+				margin-bottom: 12px;
+			}
+
+			&__image {
+				width: 78px;
+				margin-bottom: 15px;
+			}
+			
+			&__name {
+				font-size: 8px;
+			}
+
+			&__text {
+				max-height: 250px;
+				font-size: 9px;
+				line-height: 13px;
+			}
+
+			&__count {
+				font-size: 6px;
+				margin-right: 12px;
+				
+				&_active {
+					font-size: 10px;
+				}
+			}
+
+			&__navigate-btn {
+				width: 20px;
+				height: 20px;
+				line-height: 18px;
+				font-size: 24px;
+				top: -12px;
+			}
+		}
+	}
+
+}
