@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1400px) {
+  .third-block {
+    min-width: 1400px;
+	padding: 50px 280px;
+	
+    .main__title {
+      font-size: 36px;
+	}
+	
+    .main__text {
+      font-size: 12px;
+	  width: 150px;
+	  
+      &:before {
+        top: 100px;
+      }
+	}
+	
+    .list__heading {
+      font-size: 22px;
+	}
+	
+    .list__text {
+      font-size: 10px;
+    }
+  }
+}

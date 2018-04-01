@@ -1,4 +1,37 @@
 .sixth-block {
 	width: 100%;
 	padding: 0 10px;
+
+	.info {
+		padding-top: 10px;
+		padding-left: 25px;
+		width: 63%;
+		margin: 0 auto 25px;
+
+		&__heading {
+			display: block;
+			width: 82%;
+			font-size: 12px;
+			font-weight: 800;
+			color: $f-black;
+			text-transform: uppercase;
+			margin-bottom: 25px;			
+		}
+
+		&__text {
+			position: relative;
+			font-size: 9px;
+			font-weight: 500;
+
+			&:before {
+				content: '\2014';
+				position: absolute;
+				left: -30px;
+				top: 4px;
+				line-height: 0;
+				font-size: 28px;
+				font-weight: 800;
+			}
+		}
+	}
 }
