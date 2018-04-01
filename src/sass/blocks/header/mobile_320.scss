@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 11px 25px;
+  background: #0f1f33;
+
+  &__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  &__logo {
+    width: 44px;
+    height: 15px;
+  }
+
+  &__button-menu {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__svg {
+    height: 11px;
+    width: 18px;
+    &_path {
+      fill: $f-white;
+    }
+  }
+
+  &__info {
+    position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__bg-text {
+    font-family: $main-font;
+    font-weight: 800;
+    color: rgba( 0,0,0, .5);
+    font-size: 80px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+  }
+
+  .header__bg-img {
+    display: none;
+    z-index: 2;
+  }
+
+  &__title {
+
+  }
+
+  &__title-main {
+    font-family: $main-font;
+    color: $f-white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding: 25px 20%;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  &__description {
+    position: relative;
+    font-family: $main-font;
+    color: $f-white;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 7%;
+    text-align: center;
+
+    &:before {
+      content: '<';
+      color: $blue;
+      font-size: 15px;
+      position: absolute;
+      top: -2px;
+      left: 14px;
+    }
+
+    &:after {
+      content: '/>';
+      color: $blue;
+      font-size: 15px;
+      position: absolute;
+      top: 17px;
+      right: 5px;
+    }
+  }
+
+  &__text {
+    padding: 25px;
+    z-index: 3;
+  }
+
+  &__slogan {
+    font-family: $main-font;
+    color: $f-white;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  &__text-min {
+    font-family: $main-font;
+    color: $f-grey;
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  &__button-buy {
+    @include button(146px, 15px, 8px);
+  }
+
+  &__end {
+    display: none;
+  }
+}

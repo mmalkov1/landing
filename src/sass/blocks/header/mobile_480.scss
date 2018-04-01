@@ -1,0 +1,80 @@
+@media only screen and (min-width: 480px) {
+
+  .header {
+    padding: 0 18px 25px;
+
+    &__navigation {
+
+    }
+
+    &__logo {
+      width: 66px;
+      height: 23px;
+    }
+
+    &__button-menu {
+
+    }
+
+    &__svg {
+      height: 17px;
+      width: 28px;
+
+      &_path {
+
+      }
+    }
+
+    &__info {
+      position: relative;
+      height: 440px;
+    }
+
+    &__bg-text {
+      font-size: 100px;
+    }
+
+    &__title {
+
+    }
+
+    &__title-main {
+      font-size: 29px;
+    }
+
+    &__description {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0 5%;
+
+
+      &:before {
+
+      }
+
+      &:after {
+        position: absolute;
+        top: 29px;
+        right: 0;
+
+      }
+    }
+
+    &__text {
+      padding: 25px 27px;
+    }
+
+    &__slogan {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &__text-min {
+      font-size: 14px;
+    }
+
+    &__button-buy {
+      @include button(220px, 22px, 12px);
+    }
+  }
+}
