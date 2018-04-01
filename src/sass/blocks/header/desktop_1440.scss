@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1400px) {
+
+  .header {
+
+    &__navigation {
+
+    }
+
+    &__logo {
+
+    }
+
+    &__menu {
+
+    }
+
+    &__svg {
+
+      &_path {
+
+      }
+    }
+
+    &__title {
+
+    }
+
+    &__title-main {
+
+    }
+
+    &__description {
+
+
+      &:before {
+
+      }
+
+      &:after {
+
+      }
+    }
+
+    &__text {
+
+    }
+
+    &__slogan {
+
+    }
+
+    &__text-min {
+
+    }
+
+    &__button-buy {
+      //@include button(146px, 15px, 8px);
+    }
+  }
+}
