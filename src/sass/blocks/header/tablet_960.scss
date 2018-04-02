@@ -1,0 +1,114 @@
+@media only screen and (min-width: 960px) {
+
+  .header {
+    padding: 0 80px 25px;
+
+    &__navigation {
+      padding: 25px 0 51px;
+      width: 960px;
+    }
+
+    &__logo {
+
+    }
+
+    &__button-menu {
+
+    }
+
+    &__svg {
+
+      &_path {
+
+      }
+    }
+
+    &__info {
+      width: 960px;
+    }
+
+    &__bg-text {
+
+    }
+
+    .header__bg-img {
+      display: block;
+      width: 520px;
+      height: 650px;
+      position: absolute;
+      bottom: -310px;
+      right: 160px;
+    }
+
+    &__title {
+      width: 450px;
+
+    }
+
+    &__title-main {
+      font-size: 56px;
+    }
+
+    &__description {
+      font-size: 10px;
+      width: 220px;
+
+      &:before {
+
+      }
+
+      &:after {
+      }
+    }
+
+    &__text {
+      width: 190px;
+    }
+
+    &__slogan {
+      font-size: 13px;
+    }
+
+    &__text-min {
+      font-size: 11px;
+    }
+
+    &__button-buy {
+      @include button(138px, 14px, 8px);
+      position: relative;
+      right: 296px;
+    }
+
+    &__end {
+      width: 960px;
+    }
+
+    &__numbers {
+    }
+
+    &__count {
+
+      &_first {
+
+      }
+      &_second {
+
+      }
+    }
+
+    &__social {
+    }
+
+    &__svg-fb {
+      &_path {
+      }
+    }
+
+    &__svg-tw {
+
+      &_path {
+
+      }
+    }
+  }
+}
