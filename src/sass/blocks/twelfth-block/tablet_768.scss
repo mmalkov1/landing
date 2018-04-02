@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+	.twelfth-block {
+		width: 640px;
+		margin: auto;
+		padding: 0;
+		position: relative;
+
+
+		.info {
+		
+			padding-left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 40%;
+
+			&__heading {
+				font-size: 26px;
+				margin-bottom: 20px;
+				width: 100%;
+				
+			}
+
+			&__text {
+				font-size: 9px;
+				margin: 0 10px;
+				width: 75%;
+				font-weight: 500;
+
+				&:before {
+					left: -45px;
+					top: 4px;
+					font-size: 40px;
+					font-weight: 800;
+				}
+			}
+		}
+
+		.img{
+            background-image: url(../img/twelfth-block/img_768.jpg);
+            height: 330px;
+			position: absolute;
+			background-position: left;
+		}
+		
+		.list{
+            list-style-type: square;
+			margin: 0 50px;
+			position: absolute;
+			right: 0;
+    		width: 28%;
+			top: 155px;
+
+			&__item{
+				list-style-type: none;
+				position: relative;
+
+				&:before{
+					content: '';
+					position: absolute;
+					width: 6px;
+					height: 6px;
+					background-color: #000;
+					left: -20px;
+				}
+			}
+
+            &__heading{
+                font-size: 9px;
+                font-weight: 800;
+                margin-top: 20px;
+            }
+            &__text{
+                font-size: 8px;
+            }
+    
+        }
+
+
+	}
+}
