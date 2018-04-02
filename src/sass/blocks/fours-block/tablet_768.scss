@@ -1,0 +1,70 @@
+@media only screen and (min-width: 768px) {
+  .fours__block {
+    width: 640px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 45%;
+
+      .img {
+        background-image: url(../img/fours-block/img_768.jpg);
+        height: 280px;
+      }
+
+      .title {
+        display: flex;
+        justify-content: space-between;
+
+        .title__first {
+          font-size: 9px;
+          background-color: #000;
+          display: inline-block;
+        }
+
+        .title__text-advantage {
+          font-size: 9px;
+        }
+      }
+    }
+    .advantage {
+      flex-basis: 45%;
+
+      .info {
+        padding-top: 0;
+        padding-left: 0;
+        flex-basis: 33%;
+
+        &__heading {
+          font-size: 27px;
+          margin-bottom: 35px;
+          margin-top: 20px;
+        }
+
+        &__text {
+          font-size: 9px;
+          margin: 0 45px;
+
+          &:before {
+            left: -45px;
+            top: 4px;
+            font-size: 40px;
+          }
+        }
+      }
+
+      .list {
+        &__heading {
+          font-size: 9px;
+        }
+
+        &__text {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}
