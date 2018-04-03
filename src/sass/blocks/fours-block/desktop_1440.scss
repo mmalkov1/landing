@@ -38,14 +38,12 @@
 				
         &__heading {
           font-size: 36px;
-          margin-bottom: 25px;
-          background-color: #000;
-          color: #fff;
 				}
 				
         &__text {
           font-size: 12px;
-					margin: 0 45px;
+          margin: 0 45px;
+          margin-top: 25px;
 					
           &:before {
             left: -45px;
