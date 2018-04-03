@@ -26,7 +26,6 @@
 		.img{
             background-image: url(../img/twelfth-block/img_1200.jpg);
             height: 412px;
-			position: absolute;
 			background-position: left;
 		}
 		
@@ -36,7 +35,7 @@
 			position: absolute;
 			right: 0;
     		width: 35%;
-			top: 260px;
+			top: 280px;
 
 			&__item{
 				list-style-type: none;

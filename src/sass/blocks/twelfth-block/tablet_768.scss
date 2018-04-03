@@ -4,6 +4,7 @@
 		margin: auto;
 		padding: 0;
 		position: relative;
+		padding-bottom: 30px;
 
 
 		.info {
@@ -11,12 +12,12 @@
 			padding-left: 0;
 			position: absolute;
 			right: 0;
-			top: 0;
+			top: -20px;
 			width: 40%;
 
 			&__heading {
 				font-size: 26px;
-				margin-bottom: 20px;
+				margin-bottom: 10px;
 				width: 100%;
 				
 			}
@@ -39,17 +40,15 @@
 		.img{
             background-image: url(../img/twelfth-block/img_768.jpg);
             height: 330px;
-			position: absolute;
 			background-position: left;
 		}
 		
 		.list{
             list-style-type: square;
-			margin: 0 50px;
 			position: absolute;
 			right: 0;
-    		width: 28%;
-			top: 155px;
+    		width: 29%;
+			top: 125px;
 
 			&__item{
 				list-style-type: none;
