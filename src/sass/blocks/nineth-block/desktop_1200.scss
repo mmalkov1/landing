@@ -1,5 +1,69 @@
 @media only screen and (min-width: 1200px) {
-	.second-block {
+	.nineth-block {
 		width: 712px;
+
+		.info {
+						
+			&__bcg {
+				
+				&-num {
+					font-size: 325px;
+					left: 105px;
+					top: 20px;
+					line-height: 187px;
+				}
+
+				&-text {
+					left: 200px;
+					top: 67px;
+					font-size: 85px;
+				}
+			}
+
+			&__heading {
+				margin: 0 auto 26px 0;
+				font-size: 30px;	
+			}
+
+			&__text {
+				font-size: 10px;
+				margin-left: 40px;
+
+				&:before {
+					top: 8px;
+					left: -40px;
+					font-size: 40px;
+				}
+			}
+		}
+
+		.list {
+
+			&__count {
+				left: -8px;
+				font-size: 19px;
+
+				&:after {
+					bottom: -20px;
+					width: 9px;
+					height: 9px;
+				}
+			}
+
+			&__heading {
+				font-size: 10px;
+			}
+
+			&__text {
+				font-size: 9px;
+			}
+		}
+
+		.quote {
+			
+			&__text {
+				font-size: 10px;
+			}
+		}
 	}
 }

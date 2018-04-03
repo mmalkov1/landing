@@ -2,7 +2,7 @@
 	.nineth-block {
 		width: 640px;
 		margin: auto;
-		padding: 60px 0 0;
+		padding: 60px 0 55px;
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
@@ -58,17 +58,23 @@
 			flex-wrap: wrap;
 			align-items: flex-start;
 			align-content: flex-start;
-			margin-top: 0px;
+			margin: 0;			
 
 			&__item {
 				flex-basis: 45%;
 				padding-left: 30px;
 				margin-bottom: 0px;
 				min-height: 100px;
+			  overflow-x: hidden;
+
+			  &:nth-of-type(3),
+			  &:nth-of-type(4) {
+			  	min-height: 65px;
+			  }
 			}	
 			
 			&__count {
-				left: -10px;
+				left: -5px;
 				top: 6px;
 				line-height: 6px;
 				font-weight: 800;
