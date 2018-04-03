@@ -1,0 +1,81 @@
+@media only screen and (min-width: 960px) {
+  .fours__block {
+    width: 800px;
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 45%;
+      margin-right: 50px;
+
+      .img {
+        background-image: url(../img/fours-block/img_960.jpg);
+        height: 350px;
+      }
+
+      .title {
+        display: flex;
+        justify-content: space-between;
+
+        &__first {
+          font-size: 11px;
+          background-color: #000;
+          display: inline-block;
+        }
+
+        &-advantage {
+          font-size: 10px;
+        }
+      }
+    }
+    .advantage {
+      flex-basis: 45%;
+
+      .info {
+        padding-top: 0;
+        padding-left: 0;
+        flex-basis: 33%;
+
+        &__heading {
+          font-size: 34px;
+          margin-bottom: 25px;
+        }
+
+        &__text {
+          font-size: 11px;
+          margin: 0 45px;
+
+          &:before {
+            left: -45px;
+            top: 4px;
+            font-size: 40px;
+            font-weight: 800;
+          }
+        }
+      }
+      .list {
+
+        &__items {
+          list-style-type: none;
+          position: relative;
+          
+          &:before {
+            content: '';
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            background-color: #000;
+            left: -20px;
+          }
+        }
+        &__heading {
+          font-size: 11px;
+        }
+        
+        &__text {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

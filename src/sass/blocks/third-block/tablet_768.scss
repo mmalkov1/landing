@@ -1,76 +1,74 @@
 @media only screen and (min-width: 768px) {
   .third-block {
-    box-sizing: border-box;
+    width: 640px;
+    margin: auto;
+    padding: 55px 0;
     display: flex;
-    padding: 50px;
-	min-width: 768px;
-	
-    .main {
-      display: flex;
-	  flex-direction: column;
-	  flex-basis: 30%;
-	
-      &__title {
-        font-size: 27px;
-		font-weight: bold;
-		margin-top: 0px;
-	  }
-
-	  &__text{
-		  font-size: 9px;
-		  margin-left: 45px;
-		  width: 125px;
-
-		  &:before {
-			content: '\2014';
-			position: absolute;
-			left: 0px;
-			top: 76px;
-			font-size: 48px;
-			font-weight: 500;
-		  }
-	  }
-    }
-    .list {
-      display: flex;
-      flex-flow: row wrap;
-	  position: relative;
-	  flex-basis: 65%;
-	  
-      &__items {
-		width: 140px;
-		margin-bottom: -20px;
-		margin-right: 20px;
-
-	      &:nth-child(3){
-			position: absolute;
-			bottom: 0;
-			
-		}
-		&:nth-child(2){
-			position: absolute;
-			bottom: 0;
-			left: 150px;
-			margin-left: 40px;
-		}
+		justify-content: space-between;
 		
+    .info {
+      padding-top: 0;
+      padding-left: 0;
+			flex-basis: 33%;
+			
+      &__heading {
+        font-size: 26px;
+        margin-bottom: 25px;
+			}
+			
+      &__text {
+        font-size: 9px;
+				margin: 0 45px;
+				
         &:before {
-          display: none;
-		}
-	  }
-	  &__heading{
-		  font-size: 17px;
-	  }
-	  &__text{
-		  font-size: 8px;
-	  }
-	}
-	.list__img{
-		display: block;
-		position: absolute;
-		z-index: -1;
-		bottom: 0;
-		left: 0;
-	}
+          left: -45px;
+          top: 4px;
+          font-size: 40px;
+          font-weight: 800;
+        }
+      }
+    }
+    .box {
+      position: relative;
+			padding-right: 80px;
+			
+      .list {
+        display: flex;
+        flex-flow: row wrap;
+				justify-content: space-between;
+				
+        &__items {
+					flex-basis: 45%;
+					
+          &:nth-child(2) {
+            order: 4;
+					}
+					
+          &:nth-child(3) {
+            order: 1;
+					}
+					
+          &:before {
+            display: none;
+          }
+				}
+				
+        &__heading {
+          font-size: 17px;
+				}
+				
+        &__text {
+          font-size: 9px;
+        }
+			}
+			
+      .box__img {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 50px;
+        right: -35px;
+      }
+    }
   }
 }

@@ -1,27 +1,38 @@
 @media only screen and (min-width: 1400px) {
   .third-block {
-    min-width: 1400px;
-	padding: 50px 280px;
-	
-    .main__title {
-      font-size: 36px;
-	}
-	
-    .main__text {
-      font-size: 12px;
-	  width: 150px;
-	  
-      &:before {
-        top: 100px;
+    width: 850px;
+    padding: 75px 0;
+
+    .info {
+      &__heading {
+        font-size: 36px;
+        margin-bottom: 30px;
       }
-	}
-	
-    .list__heading {
-      font-size: 22px;
-	}
-	
-    .list__text {
-      font-size: 10px;
+
+      &__text {
+        font-size: 12px;
+        margin: 0 55px;
+
+        &:before {
+          left: -55px;
+        }
+      }
+    }
+
+    .box {
+
+      .list__heading {
+        font-size: 22px;
+      }
+
+      .list__text {
+        font-size: 10px;
+      }
+      
+      .box__img {
+        bottom: 125px;
+        right: -35px;
+      }
     }
   }
 }
