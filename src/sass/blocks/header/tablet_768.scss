@@ -1,12 +1,12 @@
 @media only screen and (min-width: 768px) {
 
   .header {
-    padding: 0 64px 25px;
+    //padding: 0 64px 25px;
     overflow: hidden;
 
     &__navigation {
       padding: 25px 0 51px;
-      width: 768px;
+      width: 640px;
     }
 
     &__logo {
@@ -31,7 +31,7 @@
     &__info {
       position: relative;
       height: auto;
-      width: 768px;
+      width: 640px;
       //width: 100%;
       display: flex;
       flex-direction: row;
@@ -110,7 +110,7 @@
     }
 
     &__end {
-      width: 768px;
+      width: 640px;
       display: flex;
       justify-content: space-between;
       position: relative;
