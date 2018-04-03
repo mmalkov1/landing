@@ -1,5 +1,76 @@
 @media only screen and (min-width: 1200px) {
-	.second-block {
+	.sixth-block {
 		width: 712px;
+
+
+		.hard{
+			display: block;
+			flex-basis: 40%;
+			position: relative;
+
+			.hard__img{
+				background-image: url(../img/sixth-block/img_1200.png);
+				height: 475px;
+		    }
+
+			&__text{
+				font-size: 175px;
+		    }
+		}
+		
+		.text__block{
+			flex-basis: 45%;
+			margin-right: -60px;
+
+		.info {
+
+			&__heading {
+				font-size: 30px;
+				margin-bottom: 40px;
+			}
+
+			&__text {
+				font-size: 10px;
+				margin: 0 80px;
+
+				&:before {
+					line-height: 0;
+					left: -50px;
+					top: 4px;
+					font-size: 50px;
+				}
+			}
+		}
+	}
+
+		
+		.list {
+			margin-left: 50px;
+			margin-top: 0;
+			width: 70%;
+	
+			&__item{
+				list-style-type: none;
+				position: relative;
+	
+				&:before{
+					content: '';
+					width: 9px;
+					height: 9px;
+				}
+			}
+			
+	
+			&__heading {
+			  font-size: 10px;
+			  margin-bottom: 5px;
+			  margin-top: 20px;
+			}
+
+			&__text {
+			  font-size: 9px;
+			  margin-bottom: 5px;
+			}
+		  }
 	}
 }
