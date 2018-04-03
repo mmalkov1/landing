@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1400px) {
+  .nineteen-block {
+    width: 850px;
+
+    &__title {
+      font-size: 38px;
+    }
+
+    &__info-paragraph {
+      font-size: 12px;
+    }
+
+    &__ps-f-text,
+		&__ps-s-text,
+		&__ps-t-text,
+		&__ps-your-choise {
+		  font-size: 12px;
+		}
+  }
+}

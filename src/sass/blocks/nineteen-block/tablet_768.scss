@@ -1,0 +1,53 @@
+@media only screen and (min-width: 768px) {
+  .nineteen-block {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0;
+
+  &__info-registration,
+  &__ps-info {
+    width: 45%;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+      font-size: 27px;
+    }
+
+    &__info-paragraph {
+      font-size: 9px;
+      padding-left: 38px;
+
+      &::before {
+        font-size: 40px;
+        font-weight: 800;
+        top: -25px;
+        left: 0;
+      }
+    }
+
+    &__button-take-course {
+      @include button (214px, 10px, 10px);
+    }
+
+    &__ps-f-text {
+      &:before {
+        font-size: 17px;
+        left: -16px;
+        font-weight: 800;
+        transform: translateY(0) translateX(-100%);
+      }
+    }
+
+    &__ps-f-text,
+    &__ps-s-text,
+    &__ps-t-text,
+    &__ps-your-choise {
+      font-size: 10px;
+    }
+  }
+}
