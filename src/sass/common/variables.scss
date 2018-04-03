@@ -26,10 +26,12 @@ $main-font: 'Acrom', sans-serif;
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: background-color .2s;
-	box-shadow: 0px 15px 10px -5px #FBDAC8;
+	box-shadow: 0 3px 4px rgba(196, 87, 15, 0.26);
+	border: none;
 
 	&:hover {
-		background-color: $blue;
+		background-color: darken($orange, 10%);
+		color: darken($f-white, 10%);
 		box-shadow: none;
 	}
 }
