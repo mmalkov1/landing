@@ -12,7 +12,8 @@
 
 			&__text {
                 font-size: 14px;
-                left: 40px;
+                // left: 40px;
+                margin-left: 7%;
 
 				&:before {
 					top: 6px;
@@ -29,7 +30,8 @@
     
         .list{
             list-style-type: square;
-            margin: 0 50px;
+            margin: 0 auto;
+            width: 60%;
     
             &__heading{
                 font-size: 13px;

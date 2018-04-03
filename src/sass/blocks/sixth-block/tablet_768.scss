@@ -47,12 +47,13 @@
 			&__heading {
 				font-size: 27px;
 				margin-bottom: 15px;
-				width: 100%;
+				width: 130%;
+				margin-left: 0;
 			}
 
 			&__text {
 				font-size: 9px;
-				margin: 0 75px;
+				margin: 0 20%;
 
 				&:before {
 					left: -45px;
