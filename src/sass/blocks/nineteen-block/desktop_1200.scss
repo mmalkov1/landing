@@ -8,10 +8,11 @@
 
 		&__info-paragraph {
 		font-size: 13px;
+		width: 50px;
 		}
 
 		&__button-take-course {
-		@include button (163px, 10px, 10px);
+		@include button (185px, 10px, 10px);
 		margin: 0 0 0 38px;
 		}
 
