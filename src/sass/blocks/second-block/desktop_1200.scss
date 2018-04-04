@@ -8,22 +8,29 @@
       }
 
       &__questions {
+        margin-right: 105px;
       }
 
       &__img {
       }
 
       &__title {
+        font-size: 30px;
+        width: 280px;
+        position: absolute;
+        right: 75px;
+        bottom: 5px;
 
         &:before {
           content: "\2014";
           position: absolute;
           left: 0;
-          top: -3px;
+          top: -15px;
         }
 
         &_min {
-
+          font-size: 11px;
+          margin-left: 35px;
         }
       }
     }
@@ -34,25 +41,28 @@
 
       &__title {
         font-size: 17px;
-        width: 30%;
+        width: 25%;
       }
 
       &__list {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        width: 70%;
+        width: 75%;
       }
 
       &__list-items {
-        width: 32%;
+        width: 30%;
+        margin-right: 15px;
+        margin-bottom: 25px;
       }
 
       &__go {
-        width: 100px;
+        font-size: 10px;
+        width: 150px;
         position: absolute;
-        right: 0;
-        bottom: -15px;
+        right: 32px;
+        bottom: 0px;
       }
     }
 	}
