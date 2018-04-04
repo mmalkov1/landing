@@ -1,0 +1,61 @@
+@media only screen and (min-width: 960px) {
+	.fifteenth-block {
+		width: 800px;
+		padding: 70px 0;
+
+		.info {
+			margin: 32px 0 64px;
+
+			&__heading {
+				font-size: 34px;
+			}
+		}
+
+		.list {
+
+			&__item {
+				padding-left: 45px;
+			}
+			
+			&__count {
+				font-size: 21px;
+				left: -8px;
+
+				&:after {
+					width: 9px;
+					height: 9px;
+					bottom: -17px;
+				}
+			}
+			
+			&__heading {
+				font-size: 11px;
+			}
+
+			&__text {
+				font-size: 10px;
+			}
+		}
+
+		.quote {
+			
+			&__text {
+				bottom: 55px;
+   			right: 58px;
+   			font-size: 11px;
+			}
+		}
+
+		.btn {
+			width: 166px;
+			padding: 14px 0;
+			font-size: 8px;
+			bottom: 40px;
+    	right: -7px;
+		}
+
+		.image {
+			width: 322px;
+		}
+	}
+}
