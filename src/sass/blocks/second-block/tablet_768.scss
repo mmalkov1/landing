@@ -1,7 +1,82 @@
 @media only screen and (min-width: 768px) {
 	.second-block {
-		width: 640px;
-		margin: auto;
-		padding: 0;
-	}
+    width: 640px;
+    margin: auto;
+    padding: 112px 0!important;
+
+    .first {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+
+      &:after {
+        font-size: 140px;
+        position: absolute;
+        top: 280px;
+        left: -80px;
+      }
+
+      &__questions {
+        width: 206px;
+      }
+
+      &__img {
+        height: 240px;
+        width: 260px;
+      }
+
+      &__title {
+        width: 224px;
+        font-size: 27px;
+        position: absolute;
+        right: -20px;
+        bottom: 5px;
+
+        &:before {
+          content: "\2014";
+          position: absolute;
+          left: 0;
+          top: -3px;
+        }
+
+        &_min {
+          width: 110px;
+          margin-left: 25px;
+          //font-size: 10px;
+
+        }
+      }
+    }
+
+    .second {
+
+      &__title {
+        font-size: 17px;
+      }
+
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      &__list-items {
+        width: 22%;
+
+        &:before {
+          content: '';
+          width: 0;
+          height: 0;
+        }
+      }
+
+      &__go {
+        //position: absolute;
+        margin: 0 0 0 auto;
+        text-align: left;
+        font-weight: 600;
+      }
+    }
+  }
 }
