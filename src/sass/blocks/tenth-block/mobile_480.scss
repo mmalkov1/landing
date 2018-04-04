@@ -1,0 +1,110 @@
+@media only screen and (min-width: 480px){
+    .tenth-block {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 50px;  //убрать в конце!!!!!
+    
+        .title{
+    
+            &__img{
+                background-image: url(../img/tenth-block/img_480.jpg);
+                display: block;
+                width: 100%;
+                height: 178px;
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+    
+            &__info{
+                display: none;
+            }
+        }
+    
+        .about{
+            width: 65%;
+            margin: 15px auto;
+    
+            &__title{
+                font-size: 11px;
+                text-transform: uppercase;
+                color: $f-black;
+                line-height: 1.5;
+                font-family: $main-font;
+                font-weight: 800;
+            }
+    
+    
+        }
+    
+        .list{
+            list-style-type: none;
+            counter-reset: list;
+            position: relative;
+            width: 70%;
+            margin: 25px auto;
+            width: 65%;
+    
+              &__item{
+                margin-left: 40px;
+                margin-bottom: 18px;
+    
+            &:before{
+                display: inline-block;
+                content: "[00"  counter(list) "]";
+                counter-increment: list;
+                transform: rotate(-90deg);
+                background-color: $orange;
+                color: #fff;
+                font-size: 12px;
+                left: -5px;
+                position: absolute;
+            }
+    
+        }
+        .list__heading{
+            font-size: 13px;
+            font-weight: 800;
+            font-family: $main-font;
+        }
+    
+        .list__text{
+            font-size: 13px;
+            font-family: $main-font;
+            line-height: 1.5;
+        }
+        }
+    
+        .order{
+    
+            &__text{
+                font-family: $main-font;
+                font-size: 14px;
+                color: $orange;
+                line-height: 1.4;
+                font-weight: 600;
+                position: relative;
+                width: 73%;
+                margin: 35px auto 0;
+                
+                &::before{
+                    content: '/';
+                    font-size: 30px;
+                    color: $f-black;
+                    left: -34px;
+                    position: absolute;
+                }
+    
+            }
+            &__btn{
+                @include button(216px, 20px, 11px);
+                border: none;
+                margin: 25px auto;
+                display: block;
+                margin: 25px auto;
+            }
+        }
+    }
+    
+    
+
+}
