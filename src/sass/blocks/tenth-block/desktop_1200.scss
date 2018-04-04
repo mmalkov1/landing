@@ -1,5 +1,154 @@
 @media only screen and (min-width: 1200px) {
-	.second-block {
-		width: 712px;
+	.tenth-block {
+        width: 712px;
+        padding: 65px 0;
+        margin: auto; 
+    
+        .title{
+			display: flex;
+			justify-content: space-between;
+    
+            &__img{
+                background-image: url(../img/tenth-block/img_1200.jpg);
+                display: block;
+                height: 188px;
+                background-repeat: no-repeat;
+				margin: auto;
+            }
+    
+            &__info{
+				display: block;
+				margin: 0 auto;
+				
+				&-heading{
+					font-size: 30px;
+					font-family: $main-font;
+					font-weight: 800;
+					text-transform: uppercase;
+					padding-left: 10%;
+					margin-bottom: 25px;
+
+				}
+
+				&-text{
+					font-size: 10px;
+					font-family: $main-font;
+					font-weight: 700;
+					position: relative;
+					width: 40%;
+					left: 20%;
+					padding-left: 2%;
+
+					&:before {
+						content: '\2014';
+						position: absolute;
+						left: -30px;
+						top: 4px;
+						line-height: 0;
+						font-size: 40px;
+						font-weight: 800;
+					}
+
+				}
+            }
+        }
+	
+		.main{
+			display: flex;
+			margin-top: 50px;
+			margin-bottom: -35px;
+
+		
+        .about{
+            width: 19%;
+            margin: 15px auto;
+    
+            &__title{
+                font-size: 10px;
+                text-transform: uppercase;
+                color: $f-black;
+                line-height: 1.5;
+                font-family: $main-font;
+                font-weight: 800;
+            }
+    
+    
+        }
+    
+        .list{
+            list-style-type: none;
+            counter-reset: list;
+			position: relative;
+			display: flex;
+			flex-flow: row wrap;
+			width: 73%;
+			
+              &__item{
+                margin-left: 50px;
+				margin-bottom: 18px;
+				flex-basis: 22%;
+    
+                   &:before{
+                		display: inline-block;
+                		content: "[00"  counter(list) "]";
+                		counter-increment: list;
+                		transform: rotate(-90deg);
+                		background-color: $orange;
+                		color: #fff;
+                		font-size: 5px;
+                		left: -5px;
+                		position: absolute;
+                    }
+    
+				}
+				
+        .list__heading{
+            font-size: 10px;
+            font-weight: 800;
+			font-family: $main-font;
+			margin-bottom: 10px;
+        }
+    
+        .list__text{
+            font-size: 9px;
+            font-family: $main-font;
+            line-height: 1.5;
+        }
+        }
+	
+		
 	}
+        .order{
+			display: flex;
+			flex-direction: row-reverse;
+    
+            &__text{
+				font-family: $main-font;
+				display: block;
+                font-size: 10px;
+                color: $orange;
+                line-height: 1.4;
+                font-weight: 600;
+                position: relative;
+                width: 73%;
+                margin: 35px auto 0;
+                
+                &::before{
+                    content: '/';
+                    font-size: 15px;
+                    color: $f-black;
+                    left: -18px;
+                    position: absolute;
+                }
+    
+            }
+            &__btn{
+                @include button(134px, 9px, 7px);
+                border: none;
+                margin: 25px auto;
+                display: block;
+                margin: 25px auto;
+            }
+        }
+    }
 }
