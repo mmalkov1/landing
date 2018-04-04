@@ -1,15 +1,16 @@
 @media only screen and (min-width: 960px) {
 
   .header {
-    padding: 0 80px 25px;
+    padding: 25px 80px 25px;
 
     &__navigation {
       padding: 25px 0 51px;
-      width: 960px;
+      //width: 960px;
     }
 
     &__logo {
-
+      height: 22px;
+      width: 71px;
     }
 
     &__button-menu {
@@ -24,11 +25,11 @@
     }
 
     &__info {
-      width: 960px;
+      //width: 960px;
     }
 
     &__bg-text {
-
+      font-size: 294px;
     }
 
     .header__bg-img {
@@ -36,8 +37,8 @@
       width: 520px;
       height: 650px;
       position: absolute;
-      bottom: -310px;
-      right: 160px;
+      bottom: -340px;
+      right: 32px;
     }
 
     &__title {
@@ -76,11 +77,11 @@
     &__button-buy {
       @include button(138px, 14px, 8px);
       position: relative;
-      right: 296px;
+      right: 265px;
     }
 
     &__end {
-      width: 960px;
+      //width: 960px;
     }
 
     &__numbers {

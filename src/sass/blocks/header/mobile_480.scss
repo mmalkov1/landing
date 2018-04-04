@@ -1,7 +1,7 @@
 @media only screen and (min-width: 480px) {
 
   .header {
-    padding: 0 18px 25px;
+    padding: 15px 18px 25px;
 
     &__navigation {
 
@@ -49,14 +49,17 @@
 
 
       &:before {
-
+        font-size: 22px;
+        position: absolute;
+        top: -2px;
+        left: 5px;
       }
 
       &:after {
+        font-size: 22px;
         position: absolute;
-        top: 29px;
+        top: 24px;
         right: 0;
-
       }
     }
 

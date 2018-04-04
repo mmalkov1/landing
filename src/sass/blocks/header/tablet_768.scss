@@ -1,12 +1,13 @@
 @media only screen and (min-width: 768px) {
 
   .header {
-    padding: 0 64px 25px;
+    padding: 21px 64px 30px;
     overflow: hidden;
 
     &__navigation {
-      padding: 25px 0 51px;
-      width: 768px;
+      padding-bottom: 51px;
+      //width: 768px;
+      display: flex;
     }
 
     &__logo {
@@ -31,7 +32,7 @@
     &__info {
       position: relative;
       height: auto;
-      width: 768px;
+      //width: 768px;
       //width: 100%;
       display: flex;
       flex-direction: row;
@@ -48,24 +49,18 @@
 
     .header__bg-img {
       display: block;
-      width: 500px;
-      height: 550px;
+      width: 435px;
       position: absolute;
-      bottom: -260px;
-      right: 70px;
+      bottom: -310px;
+      right: 13px;
     }
 
     &__title {
       width: 360px;
-      //display: flex;
-      //flex-direction: column;
-      align-items: flex-start;
       z-index: 3;
-
     }
 
     &__title-main {
-      //width: 360px;
       font-size: 45px;
       padding: 0;
     }
@@ -75,14 +70,17 @@
       width: 176px;
       text-align: left;
       padding: 0;
-      margin: 23px auto;
+      margin: 23px auto 23px 67px;
 
-      &:before {position: absolute;
+      &:before {
+        font-size: 14px;
+        position: absolute;
         top: -2px;
         left: -20px;
       }
 
       &:after {
+        font-size: 14px;
         position: absolute;
         top: 22px;
         right: -25px;
@@ -106,14 +104,15 @@
     &__button-buy {
       @include button(110px, 10px, 6px);
       position: relative;
-      right: 240px;
+      right: 198px;
     }
 
     &__end {
-      width: 768px;
+      //width: 768px;
       display: flex;
       justify-content: space-between;
       position: relative;
+      padding-top: 30px;
     }
 
     &__numbers {
