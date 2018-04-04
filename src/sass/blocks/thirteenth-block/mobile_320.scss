@@ -1,0 +1,51 @@
+.thirteenth-block {
+	padding: 20px 10px;
+	
+	&__f-block,
+	&__s-block {
+		width: 55%;
+		margin: 0 auto;
+	}
+
+	&__f-block-title {
+		font-size: 14px;
+		margin-bottom: 15px;
+		font-weight: 800;
+	}
+
+	&__f-block-paragraph {
+		padding-left: 20px;
+		position: relative;
+		font-weight: bold;
+		font-size: 10px;
+		margin-bottom: 15px;
+	}
+
+	&__f-block-paragraph::before {
+		content: "\2014";
+		position: absolute;
+		top: -8px;
+		left: 0;
+		font-size: 20px;
+	}
+	&__container-img {
+		margin-bottom: 25px;
+	}
+
+	&__img {
+		width: 100%;
+		height: auto;
+	}
+
+	&__s-block-title,
+	&__s-block-paragraph {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+
+	&__f-block-title,
+	&__s-block-title {
+		text-transform: uppercase;
+		font-weight: 800;
+	}
+}
