@@ -20,13 +20,18 @@
 				}
 			}	
 		}	
-
     .list__heading {
-      font-size: 18px;
+			font-size: 24px;
+			
+			.light-text{
+        font-size: 16px;
+
+      }
     }
-    
     .list__text {
       font-size: 13px;
-    }
-  }
+		}
+	}
 }
+
+
