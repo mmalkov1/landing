@@ -9,7 +9,7 @@
     .info {
       padding-top: 0;
       padding-left: 0;
-			flex-basis: 33%;
+			flex-basis: 38%;
 			
       &__heading {
         font-size: 26px;
@@ -18,7 +18,9 @@
 			
       &__text {
         font-size: 9px;
-				margin: 0 45px;
+        margin: 0 45px;
+        width: 67%;
+        font-weight: 600;
 				
         &:before {
           left: -45px;
@@ -30,7 +32,7 @@
     }
     .box {
       position: relative;
-			padding-right: 80px;
+      flex-basis: 100%;
 			
       .list {
         display: flex;
@@ -66,7 +68,7 @@
         display: block;
         position: absolute;
         z-index: -1;
-        bottom: 50px;
+        bottom: 0;
         right: -35px;
       }
     }

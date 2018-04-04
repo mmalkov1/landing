@@ -36,11 +36,13 @@
 
 	.box{
     .list {
-		  width: 90%;
-		
+      width: 75%;
+      margin: 0 auto;
+     
     &__items {
       position: relative;
-			margin-left: 15px;
+      margin-left: 15px;
+      
 			
       &:before {
         content: '';
@@ -48,21 +50,28 @@
         height: 7px;
         background-color: $orange;
         position: absolute;
-        left: -15px;
+        left: -7%;
+        top: 12%;
       }
 		}
 		
     &__heading {
-      font-size: 12px;
+      font-size: 16px;
       font-family: $main-font;
       color: $f-black;
-      font-weight: bold;
+      font-weight: 800;
       margin-bottom: 8px;
       margin-top: 10px;
+
+      .light-text{
+        font-weight: 600;
+        font-size: 12px;
+
+      }
 		}
 		
     &__text {
-      font-size: 9px;
+      font-size: px;
       font-family: $main-font;
 			color: $f-black;
 			
@@ -79,3 +88,5 @@
 	  }
 	}
 }
+
+
