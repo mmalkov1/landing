@@ -4,6 +4,7 @@
 		padding: 65px 0;
 
 		.info {
+			top: 12%;
 
 			&__heading {
 				font-size: 30px;
@@ -12,7 +13,6 @@
 
 			&__text {
 				font-size: 10px;
-				margin: 0 20px;
 
 				&:before {
 					line-height: 0;
