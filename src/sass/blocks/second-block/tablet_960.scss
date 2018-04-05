@@ -1,5 +1,53 @@
 @media only screen and (min-width: 960px) {
 	.second-block {
 		width: 800px;
+
+		.first {
+
+      &__questions {
+        width: 250px;
+        font-size: 11px;
+        margin-right: 130px;
+      }
+
+      &__img {
+        height: 300px;
+        width: 322px;
+      }
+
+      &__title {
+        font-size: 34px;
+        width: 280px;
+        position: absolute;
+        right: 102px;
+        bottom: 5px;
+
+        &_min {
+          font-size: 13px;
+          width: 160px;
+          margin-left: 25px;
+        }
+      }
+		}
+
+    .second {
+
+      &__title {
+        font-size: 21px;
+      }
+
+      &__list {
+
+      }
+
+      &__list-items {
+        font-size: 11px;
+      }
+
+      &__go {
+        width: 250px;
+        font-size: 12px;
+      }
+    }
 	}
 }

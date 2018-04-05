@@ -1,0 +1,84 @@
+@media only screen and (min-width: 480px){
+    .fours__block {
+        
+        .main{
+
+            .img{
+                background-image: url(../img/fours-block/img_480.jpg);
+                height: 174px;
+                margin: 50px auto;
+            }
+
+            .title__first{
+                font-size: 18px;
+                text-transform: uppercase;
+                background-color: #000;
+                color: $f-white;
+                display: inline-block;
+                text-align: center;
+                margin-bottom: 30px;
+                font-family: $main-font;
+            }
+    
+            .title__text{
+                line-height: 1.4;
+                margin-left: 30px;
+    
+                &-advantage{
+                    font-size: 13px;
+                    font-family: $main-font;
+                }
+
+                &-highlight{
+                    font-weight: 800;
+                    display: inline-block;
+                    margin-bottom: 13px;
+                    font-family: $main-font;
+                }
+
+                .highlight__blue{
+                    background-color: $blue;
+                }
+            }
+            
+        }
+        .advantage{
+            margin-top: 30px;
+            width: 90%;
+            margin: 30px auto;
+    
+            .info {
+                margin: 0 auto 38px;
+                padding-top: 15px;
+                
+                &__heading {
+                    font-size: 18px;
+                    margin-bottom: 40px;
+                }
+    
+                &__text {
+                    font-size: 14px;
+                    margin-left: 50px;
+    
+                    &:before {
+                        top: 6px;
+                        left: -50px;
+                        font-size: 40px;
+                    }
+                }	
+            }	
+            .list{
+                margin-left: 10px;
+                margin-top: 30px;
+    
+                &__heading{
+                    font-size: 13px;
+                }
+                &__text{
+                    font-size: 13px;
+    
+                }
+            }
+        }
+    }
+}

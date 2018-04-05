@@ -1,0 +1,68 @@
+@media only screen and (min-width: 960px) {
+	.fifth-block {
+		width: 800px;
+		padding: 70px 0;
+
+		.info {
+
+			&__heading {
+				font-size: 34px;
+				margin-bottom: 45px;
+			}
+
+			&__text {
+				font-size: 11px;
+				font-weight: 500;
+				margin: 0 60px;
+
+				&:before {
+					line-height: 0;
+					left: -60px;
+					top: 4px;
+					font-size: 50px;
+				}
+			}
+		}
+
+		.reviews {
+
+			&__block {
+				padding: 35px;
+				margin-bottom: 15px;
+			}
+
+			&__image {
+				width: 100px;
+				margin-bottom: 20px;
+			}
+			
+			&__name {
+				font-size: 10px;
+			}
+
+			&__text {
+				max-height: 310px;
+				font-size: 10px;
+				line-height: 17px;
+			}
+
+			&__count {
+				font-size: 7px;
+				margin-right: 12px;
+				
+				&_active {
+					font-size: 13px;
+				}
+			}
+
+			&__navigate-btn {
+				width: 25px;
+				height: 25px;
+				line-height: 22px;
+				font-size: 30px;
+				top: -15px;
+			}
+		}
+
+	}
+}

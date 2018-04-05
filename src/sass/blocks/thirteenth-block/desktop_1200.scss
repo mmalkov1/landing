@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1200px) {
+	.thirteenth-block {
+		width: 712px;
+		
+		&__f-block-title {
+			font-size: 30px;
+		}
+		&__f-block-paragraph {
+			font-size: 10px;
+		}
+		&__s-block-title {
+			font-size: 10px;
+			width: 110px;
+		}
+		&__s-block-paragraph {
+			font-size: 9px;
+		}
+    }
+}
