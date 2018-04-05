@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1400px) {
+  .eleventh-block {
+		width: 850px;
+      &__f-title {
+      font-size: 34px;
+    }
+
+    &__f-block-paragraph {
+      font-size: 12px;
+      width: 230px;
+    }
+
+    &__abs-f-block {
+      width: 55%;
+    }
+
+    &__s-block-title,
+    &__info-text,
+    &__abs-f-block-title {
+      font-size: 12px;
+    }
+
+    &__s-block-paragraph,
+    &__abs-f-block-paragraph {
+      font-size: 10.5px;
+    }
+  }
+}
