@@ -1,0 +1,72 @@
+@media only screen and (min-width: 768px) {
+  .eleventh-block {
+    width: 640px;
+    margin: 0 auto;
+    position: relative;
+
+    &__f-title {
+      font-size: 26px;
+      width: 100%;
+    }
+
+    &__f-block {
+      width: 40%;
+      margin-bottom: 40px;
+    }
+
+    &__f-block-paragraph {
+      font-size: 10px;
+      width: 200px;
+      margin: 0;
+      padding-left: 45px;
+
+      &::before {
+        font-size: 40px;
+      }
+    }
+
+    &__container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    &__abs-f-block-title,
+    &__abs-f-block-paragraph {
+      flex-basis: 35%;
+    }
+
+    &__abs-f-block-title {
+      font-size: 11px;
+    }
+
+    &__abs-f-block {
+      position: absolute;
+      top: 30px;
+      right: 0;
+      width: 50%;
+    }
+
+    &__rewards-list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__rewards-item {
+      flex-basis: 25%;
+      padding: 0;
+    }
+
+    &__pt {
+      padding-top: 40px;
+    }
+
+    &__container-text {
+      width: 75%;
+    }
+
+    &__dark-text {
+      font-size: 8.8px;
+    }
+  }
+}
