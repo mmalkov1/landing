@@ -26,15 +26,18 @@
     &__info {
       display: flex;
       justify-content: space-around;
-      //width: 718px;
-      //margin: 0 auto;
+      width: 960px;
+      margin: 0 auto;
     }
 
     &__bg-text {
-      font-size: 262px;
+      font-size: 294px;
     }
 
     .header__bg-img {
+      position: absolute;
+      bottom: -340px;
+      right: 100px;
     }
 
     &__title {
@@ -73,7 +76,7 @@
     &__button-buy {
       @include button(138px, 14px, 8px);
       position: relative;
-      right: 278px;
+      right: 202px;
     }
 
     &__end {
@@ -96,7 +99,7 @@
     &__social {
       position: relative;
       bottom: 0;
-      right: 0;
+      right: 22px;
     }
 
     &__svg-fb {

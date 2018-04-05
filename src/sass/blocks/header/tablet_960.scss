@@ -5,7 +5,7 @@
 
     &__navigation {
       padding: 25px 0 51px;
-      //width: 960px;
+      width: 718px;
     }
 
     &__logo {
@@ -25,11 +25,13 @@
     }
 
     &__info {
+      width: 718px;
+      margin: 0 auto;
       //width: 960px;
     }
 
     &__bg-text {
-      font-size: 294px;
+      font-size: 270px;
     }
 
     .header__bg-img {
@@ -38,7 +40,7 @@
       height: 650px;
       position: absolute;
       bottom: -340px;
-      right: 32px;
+      right: 0px;
     }
 
     &__title {
@@ -71,20 +73,22 @@
     }
 
     &__text-min {
+      width: 150px;
       font-size: 11px;
     }
 
     &__button-buy {
       @include button(138px, 14px, 8px);
       position: relative;
-      right: 265px;
+      right: 222px;
     }
 
     &__end {
-      //width: 960px;
+      width: 718px;
     }
 
     &__numbers {
+
     }
 
     &__count {
@@ -98,6 +102,10 @@
     }
 
     &__social {
+      position: absolute;
+      bottom: 123px;
+      right: 10px;
+      z-index: 4;
     }
 
     &__svg-fb {
@@ -111,5 +119,10 @@
 
       }
     }
+  }
+
+  .span {
+    position: relative;
+    left: -100px;
   }
 }
