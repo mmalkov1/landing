@@ -1,0 +1,38 @@
+@media only screen and (min-width:960px) {
+    .fourteenth-block {
+        width: 800px;
+
+        &__paragraph,
+        &__list-title {
+            font-size: 12px;
+        }
+
+        &__title {
+            width: 90%;
+            font-size: 38px;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        &__s-paragraph {
+            font-size: 12px;
+            width: 64%;
+        }
+
+        &__s-title {
+            font-size: 18px;
+        }
+
+        &__list-paragraph {
+            font-size: 10.5px;
+        }
+
+        &__container-list {
+            flex-basis: 70%;
+        }
+
+        &__s-block {
+            justify-content: space-between;
+        }
+    }
+}
