@@ -2,12 +2,13 @@
 	.second-block {
     width: 640px;
     margin: auto;
-    padding: 112px 0!important;
+    padding: 112px 0 55px;
 
     .first {
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
+      margin-bottom: 66px;
 
       &:after {
         font-size: 140px;
@@ -22,9 +23,17 @@
         margin-right: 100px;
       }
 
-      &__img {
+      &__img-block {
         height: 240px;
         width: 260px;
+      }
+
+      &__img {
+        height: 110%;
+        width: 175%;
+        position: relative;
+        top: -25px;
+        left: -120px;
       }
 
       &__title {
