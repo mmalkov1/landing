@@ -62,11 +62,15 @@
     }
 
     &__container-text {
-      width: 75%;
+      width: 60%;
     }
 
     &__dark-text {
       font-size: 8.8px;
+    }
+
+    &__s-block-title {
+      width: 100%;
     }
   }
 }
