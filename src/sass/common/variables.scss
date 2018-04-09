@@ -30,8 +30,14 @@ $main-font: 'Acrom', sans-serif;
 	border: none;
 
 	&:hover {
-		background-color: darken($orange, 10%);
-		color: darken($f-white, 10%);
-		box-shadow: none;
+		box-shadow: 0 3px 4px rgba(23, 236, 255, 0.26);
+		background-color: $blue;
+		outline: 1px solid transparent
+	}
+
+	&:active {
+		box-shadow: 0 1px 5px rgba(1, 1, 1, 0.3);
+		background-color: #06a4b2;
+		outline: 1px solid transparent
 	}
 }
