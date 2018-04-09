@@ -71,8 +71,6 @@
                 font-family: $main-font;
                 font-weight: 800;
             }
-    
-    
         }
     
         .list{
@@ -96,7 +94,6 @@
                 		background-color: $orange;
                 		color: #fff;
                 		font-size: 5px;
-                		// left: -5px;
                 		position: absolute;
                     }
     
@@ -115,12 +112,9 @@
             line-height: 1.5;
         }
         }
-	
 		
 	}
         .order{
-			display: flex;
-			flex-direction: row-reverse;
     
             &__text{
 				font-family: $main-font;
@@ -130,8 +124,8 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 73%;
-                margin: 35px auto 0;
+                width: 35%;
+                top: 60px;
                 
                 &::before{
                     content: '/';
@@ -146,9 +140,7 @@
             &__btn{
                 @include button(160px, 12px, 8px);
                 border: none;
-                margin: 25px auto;
                 display: block;
-                margin: 25px auto;
             }
         }
     }
