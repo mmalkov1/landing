@@ -1,27 +1,28 @@
 .eight-block {
 	width: 100%;
-	padding: 0 10px;
+	padding: 21px 10px 25px;
 
 	.first-container {
 
     &__img {
       display: block;
-      height: 150px;
-      width: 190px;
+      width: 180px;
       margin: 0 auto;
     }
 
     &__description {
-
+      display: flex;
+      flex-direction: column;
+      width: 69%;
+      margin: 0 auto;
     }
 
     &__title {
+      width: 120px;
       font-family: $main-font;
       font-size: 12px;
       font-weight: 800;
       text-transform: uppercase;
-      width: 50%;
-      margin: 0 auto;
     }
 
     &__text {
@@ -29,16 +30,14 @@
       font-size: 9px;
       font-weight: 600;
       font-family: Acrom,sans-serif;
-      margin-left: 12%;
-      //width: 60%;
+      margin-left: 24px;
 
       &:before {
         content: "\2014";
         position: absolute;
-        left: -30px;
-        top: 4px;
-        line-height: 0;
-        font-size: 28px;
+        left: -24px;
+        top: 6px;
+        font-size: 24px;
         font-weight: 800;
       }
 
@@ -46,7 +45,51 @@
   }
 
   .second-container {
+    margin-top: 15px;
 
+    &__img {
+      display: block;
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      padding: 0 2px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      width: 69%;
+      margin: 0 auto;
+    }
+
+    &__list-item {
+
+    }
+
+    &__title-min {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin: 10px 0 10px 12px;
+      position: relative;
+
+      &:before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        position: absolute;
+        left: -12px;
+        top: 5px;
+
+      }
+    }
+
+    &__text {
+      font-size: 9px;
+      font-family: $main-font;
+
+    }
   }
 
 }
