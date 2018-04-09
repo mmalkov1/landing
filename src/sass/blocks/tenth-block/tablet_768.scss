@@ -96,8 +96,8 @@
                 		transform: rotate(-90deg);
                 		background-color: $orange;
                 		color: #fff;
-                		font-size: 5px;
-                		left: -20px;
+                		font-size: 9px;
+                		left: -30px;
                         position: absolute;
                         top: 5px;
                     }
@@ -120,8 +120,6 @@
 		
 	}
         .order{
-			// display: flex;
-			// flex-direction: row-reverse;
     
             &__text{
 				font-family: $main-font;
@@ -131,16 +129,19 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 44%;
+                width: 32%;
                 top: 55px;
+                left: -20px;
                 
                 &::before{
                     content: '/';
-                    font-size: 25px;
+                    font-size: 28px;
                     color: $f-black;
-                    left: -18px;
+                    left: -25px;
                     position: absolute;
                     line-height: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
                 }
     
             }

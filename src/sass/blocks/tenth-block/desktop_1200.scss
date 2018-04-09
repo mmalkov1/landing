@@ -95,7 +95,7 @@
                 		transform: rotate(-90deg);
                 		background-color: $orange;
                 		color: #fff;
-                		font-size: 5px;
+                		font-size: 9px;
                 		// left: -5px;
                 		position: absolute;
                     }
@@ -126,13 +126,13 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 34%;
+                width: 25%;
                 
                 &::before{
                     content: '/';
-                    font-size: 25px;
+                    font-size: 30px;
                     color: $f-black;
-                    left: -18px;
+                    left: -25px;
                     position: absolute;
                     line-height: 10px;
                 }
