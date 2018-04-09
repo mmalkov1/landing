@@ -1,4 +1,52 @@
 .eight-block {
 	width: 100%;
 	padding: 0 10px;
+
+	.first-container {
+
+    &__img {
+      display: block;
+      height: 150px;
+      width: 190px;
+      margin: 0 auto;
+    }
+
+    &__description {
+
+    }
+
+    &__title {
+      font-family: $main-font;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    &__text {
+      position: relative;
+      font-size: 9px;
+      font-weight: 600;
+      font-family: Acrom,sans-serif;
+      margin-left: 12%;
+      //width: 60%;
+
+      &:before {
+        content: "\2014";
+        position: absolute;
+        left: -30px;
+        top: 4px;
+        line-height: 0;
+        font-size: 28px;
+        font-weight: 800;
+      }
+
+    }
+  }
+
+  .second-container {
+
+  }
+
 }
