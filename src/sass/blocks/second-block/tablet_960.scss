@@ -4,15 +4,28 @@
 
 		.first {
 
+      &:after {
+        font-size: 175px;
+        position: absolute;
+        top: 350px;
+        left: -90px;
+      }
+
       &__questions {
         width: 250px;
         font-size: 11px;
         margin-right: 130px;
       }
 
-      &__img {
+      &__img-block {
         height: 300px;
         width: 322px;
+      }
+
+      &__img {
+        position: relative;
+        top: -30px;
+        left: -145px;
       }
 
       &__title {

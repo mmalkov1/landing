@@ -1,0 +1,114 @@
+.fourteenth-block {
+	padding: 10px;
+
+	&__fourteenth-block__img {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	&__container-img {
+		background-image: url("../img/fourteenth-block/bg_main_image.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 75px 20px;
+		text-align: center;
+	}
+
+	&__f-block {
+		width: 75%;
+		margin: 0 auto;
+		/*border: 1px solid red;*/
+	}
+	&__paragraph {
+		font-family: $main-font;
+		font-size: 9px;
+		color: $orange;
+		line-height: 1.4;
+		font-weight: 600;
+		position: relative;
+		margin: 35px auto 15px;
+			
+		&::before{
+			content: '/';
+			font-size: 20px;
+			color: $f-black;
+			left: -20px;
+			position: absolute;
+			line-height: 25px;
+		}
+	}
+
+	&__title {
+		width: 175px;
+		font-weight: 800;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	&__dark-text {
+		font-size: 12px;
+		background-color: #000;
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	&__s-paragraph {
+		font-size: 9px;
+		width: 185px;
+		font-weight: 800;
+		padding-left: 30px;
+		position: relative;
+		margin: 0 auto 35px;
+
+		&::before {
+			content: "\2014";
+			position: absolute;
+			left: 4px;
+			top: 4px;
+			line-height: 0;
+			font-size: 28px;
+			font-weight: 100;
+		}
+	}
+
+	&__s-block {
+		/*border: 1px solid blue;*/
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	&__s-title {
+		font-size: 9px;
+		font-weight: 800;
+		margin-bottom: 25px;
+		text-transform: uppercase;
+	}
+
+	&__list-item {
+		padding-left: 30px;
+		margin-bottom: 18px;
+		position: relative;
+
+		&:before{
+			content: "[00"  counter(list) "]";
+			counter-increment: list;
+			transform: rotate(-90deg);
+			background-color: $orange;
+			color: #fff;
+			font-size: 7px;
+			left: 5px;
+			top: 8px;
+			position: absolute;
+		}
+	}
+
+	&__list-title {
+		font-size: 9px;
+		font-weight: 800;
+	}
+
+	&__list-paragraph {
+		font-size: 9px;
+	}
+}
