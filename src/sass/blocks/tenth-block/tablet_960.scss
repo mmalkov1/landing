@@ -121,8 +121,8 @@
 		
 	}
         .order{
-			display: flex;
-			flex-direction: row-reverse;
+			// display: flex;
+			// flex-direction: row-reverse;
     
             &__text{
 				font-family: $main-font;
@@ -132,8 +132,11 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 73%;
-                margin: 35px auto 0;
+                // width: 73%;
+                // margin: 35px auto 0;
+                width: 29%;
+                top: 55px;
+                left: -8%;
                 
                 &::before{
                     content: '/';
@@ -148,9 +151,9 @@
             &__btn{
                 @include button(150px, 10px, 7px);
                 border: none;
-                margin: 25px auto;
+                // margin: 25px auto;
                 display: block;
-                margin: 25px auto;
+                margin-left: 0;
             }
         }
     }

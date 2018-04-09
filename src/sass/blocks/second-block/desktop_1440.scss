@@ -5,6 +5,10 @@
 		.first {
 
       &:after {
+        font-size: 188px;
+        position: absolute;
+        top: 375px;
+        left: -100px;
       }
 
       &__questions {
@@ -13,7 +17,7 @@
         margin-right: 160px;
       }
 
-      &__img {
+      &__img-block {
         width: 344px;
         height: 322px;
       }

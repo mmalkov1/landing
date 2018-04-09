@@ -4,12 +4,23 @@
 
     .first {
 
+      &:after {
+        font-size: 97px;
+        position: absolute;
+        top: 265px;
+        left: -70px;
+      }
+
       &__questions {
         font-size: 14px;
       }
 
-      &__img {
+      &__img-block {
         height: 132px;
+      }
+
+      &__img {
+
       }
 
       &__title {

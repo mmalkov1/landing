@@ -5,6 +5,10 @@
     .first {
 
       &:after {
+        font-size: 156px;
+        position: absolute;
+        top: 350px;
+        left: -100px;
       }
 
       &__questions {
