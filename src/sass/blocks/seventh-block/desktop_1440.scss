@@ -1,0 +1,27 @@
+@media only screen and (min-width:1440px) {
+    .seventh-block {
+        width: 850px;
+
+        &__title {
+            font-size: 36px;
+        }
+
+        &__paragraph {
+            font-size: 12px;
+        }
+
+        &__f-text-title,
+        &__s-text-title,
+        &__s-block-f-paragraph {
+            font-size: 12px;
+        }
+
+        &__s-block-s-paragraph {
+            font-size: 10.5px;
+        }
+
+        &__container-s-img {
+            width: 365px;
+        }
+    }
+}
