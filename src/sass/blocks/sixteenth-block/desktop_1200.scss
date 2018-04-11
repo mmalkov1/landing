@@ -1,0 +1,189 @@
+@media only screen and (min-width: 1200px) {
+	.sixteenth__block {
+		width: 712px;
+
+
+		.section1{
+			display: flex;
+			flex-direction: row-reverse;
+	   
+   
+			.info {
+			 padding-top: 15px;
+			 padding-left: 0;
+			 flex-basis: 39%;
+	   
+			 &__heading {
+			   font-size: 30px;
+			   margin-bottom: 35px;
+			 }
+	   
+			 &__text {
+			   font-size: 10px;
+			   margin: 0 45px;
+			   left: 0;
+	   
+			   &:before {
+				 left: -45px;
+				 top: 4px;
+				 font-size: 40px;
+				 font-weight: 800;
+			   }
+			 }
+		   }
+		   .img{
+			 background-image: url(../img/sixteenth-block/img1_1200.jpg);
+			 height: 189px;
+			 margin: 0 0;
+			 flex-basis: 40%;
+		   }
+		  
+		 }
+
+
+
+
+
+
+		 .about{
+			display: flex;
+	
+			.title{
+			  width: 50%;
+			  margin-top: 7%;
+	
+			   .box__text{
+				 display: flex;
+				 margin-bottom: 25px;
+	
+					  .title__heading{
+						  font-family: $main-font;
+						  font-size: 10px;
+						  text-transform: uppercase;
+						  font-weight: 800;
+						  margin-right: 20px;
+						  width: 115%;
+					 }
+		
+					   .title__text{
+						  font-family: $main-font;
+						  font-size: 9px;
+						  margin: 0;
+					  }
+			}
+		  }
+	
+			&__img{
+			  background-image: url(../img/sixteenth-block/img2_1200.jpg);
+			  height: 226px;
+			  background-repeat: no-repeat;
+			  background-position: 50%;
+			  width: 65%;
+			}
+		  }
+
+		 .result{
+			display: flex;
+			position: relative;
+
+			&__title{
+				text-transform: uppercase;
+				font-family: $main-font;
+				font-size: 10px;
+				font-weight: 800;
+				margin: 20px 0;
+				width: 18%;
+				text-align: left;
+			}
+
+			.list{
+				list-style-type: none;
+				counter-reset: list;
+				// margin: 25px auto;
+				width: 80%;
+				display: flex;
+				flex-flow: row wrap;
+				// position: relative;
+	
+		
+							&__item{
+								margin-left: 30px;
+								margin-bottom: 18px;
+								position: relative;
+								flex-basis: 27%;
+		
+				&:before{
+					display: inline-block;
+					content: "[00"  counter(list) "]";
+					counter-increment: list;
+					transform: rotate(-90deg);
+					background-color: $orange;
+					color: #fff;
+					font-size: 9px;
+					left: -30px;
+					position: absolute;
+					top: 5px;
+				}
+		
+			}
+			.list__heading{
+				font-size: 10px;
+				font-weight: 800;
+				font-family: $main-font;
+			}
+		
+			.list__text{
+				font-size: 9px;
+				font-family: $main-font;
+				line-height: 1.5;
+			}
+			}
+
+
+			&__price{
+				display: flex;
+				justify-content: center;
+				position: absolute;
+				right: 40px;
+				bottom: 54px;
+
+				&-text{
+					width: 45%;
+					font-family: $main-font;
+					font-size: 9px;
+					font-weight: 600;
+
+					.blue-bg{
+						background-color: $blue;
+					}
+
+				}
+
+				&-num{
+					font-family: $main-font;
+					font-size: 10px;
+
+					.first-price{
+						font-family: $main-font;
+						font-size: 9px;
+						text-decoration: line-through;
+						text-transform: uppercase;
+						
+					}
+
+					.second-price{
+						text-transform: uppercase;
+						font-weight: 800;
+						font-size: 10px;
+
+					}
+
+				}
+			}
+		}
+
+
+
+
+	}
+}

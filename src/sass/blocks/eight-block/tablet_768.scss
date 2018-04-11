@@ -1,0 +1,87 @@
+@media only screen and (min-width: 768px) {
+	.eight-block {
+		width: 640px;
+		margin: auto;
+		padding: 50px 0/*65px*/ 25px;
+
+		.first-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__img-block {
+        width: 300px;
+        padding: 0 10px;
+      }
+
+      &__img {
+        width: 274px;
+      }
+
+      &__description {
+        width: 300px;
+        padding: 0 10px;
+        margin: 0;
+      }
+
+      &__title {
+        width: 300px;
+        font-size: 27px;
+        margin-bottom: 27px;
+      }
+
+      &__text {
+        width: 190px;
+        font-size: 9px;
+        font-weight: 800;
+
+        &:before {
+          content: "\2014";
+          position: absolute;
+          left: -30px;
+          top: -15px;
+        }
+      }
+    }
+
+    .second-container {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 0;
+
+      &__img-block {
+        width: 50%;
+      }
+
+      &__img {
+        padding: 0 0 0 30px;
+        position: relative;
+        bottom: 36px;
+      }
+
+      &__list {
+        width: 50%;
+      }
+
+      &__title-min {
+        font-size: 9px;
+        margin: 25px 0 15px 0;
+
+        &:before {
+          content: '';
+          width: 7px;
+          height: 7px;
+          position: absolute;
+          left: 0;
+          top: -20px;
+        }
+      }
+
+      &__text {
+        width: 200px;
+        font-size: 8px;
+        font-weight: 600;
+      }
+    }
+	}
+}
