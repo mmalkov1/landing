@@ -54,6 +54,33 @@
 
 	&__rewards-item {
 		padding: 13px 50px;
+
+		&--bg-f {
+			background-image: url("../img/eleventh-block/bg-item.png");
+			background-repeat: no-repeat;
+			background-position: 85% 30%;
+		}
+
+		&--bg-s {
+			background-image: url("../img/eleventh-block/bg-item_2.png");
+			background-repeat: no-repeat;
+			background-position: 85% 30%;
+			background-size: 30px auto;
+		}
+
+		&--bg-t {
+			background-image: url("../img/eleventh-block/bg-item_3.png");
+			background-repeat: no-repeat;
+			background-position: 85% 30%;
+			background-size: 40px auto;
+		}
+
+		&--bg-fh {
+			background-image: url("../img/eleventh-block/bg-item_3.png");
+			background-repeat: no-repeat;
+			background-position: 85% 30%;
+			background-size: 40px auto;
+		}
 	}
 
 	&__s-block-title {
@@ -61,6 +88,7 @@
 		font-weight: 800;
 		text-transform: uppercase;
 		margin-bottom: 10px;
+		width: 125px;
 	}
 
 	&__info-text {
