@@ -21,12 +21,21 @@
 
     .box {
 
+      .list__items {
+        padding-right: 30px;
+      }
+
       .list__heading {
         font-size: 22px;
       }
 
       .list__text {
         font-size: 10px;
+        margin-bottom: 14px;
+
+        &-count {
+          line-height: 1.6;
+        }
       }
       
       .box__img {
