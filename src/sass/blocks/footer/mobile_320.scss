@@ -1,0 +1,126 @@
+.footer {
+	width: 100%;
+	color: $f-white;
+	
+	&__first-row {
+		width: 100%;
+		background-color: $ftr-b;
+		padding: 25px 10px;
+		
+		&-wrapper {
+			position: relative;
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+
+	&__logo-block {
+		flex-basis: 16%;
+	}
+
+	&__logo {
+		display: block;
+		width: 27px;
+		height: auto;
+	}
+	&__first-column {
+		flex-basis: 16%;
+		padding: 0 4px;
+	}
+
+	&__second-column {
+		flex-basis: 16%;
+		padding: 0 4px;
+	}
+
+	&__third-column {
+		flex-basis: 16%;
+		padding: 0 4px;
+	}
+
+	&__heading {
+		font-size: 4px;
+		text-transform: uppercase;
+		font-weight: 800;
+		margin-bottom: 4px;
+	}
+
+	&__adress {
+		font-size: 4px;
+		line-height: 1.4;
+		color: $ftr-f-grey;
+	}
+
+	&__mail {
+		font-size: 4px;
+		line-height: 1.4;
+		color: $ftr-f-grey;
+	}
+
+	&__phone {
+		font-size: 4px;
+		line-height: 1.4;
+		color: $ftr-f-grey;
+	}
+
+	&__social {
+		display: block;
+		line-height: 1.7;
+		font-size: 4px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	&__button-block {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-64%);
+	}
+
+	&__btn {
+		@include button (58px, 6px, 3px)
+		border: 1px solid #1b4371;
+		background-color: #181c27;
+		box-shadow: none;
+	}
+
+	&__second-row {
+		
+		width: 100%;
+		background-color: $ftr-b2;
+		padding: 5px 10px;
+		color: $ftr-f-grey2;
+		font-size: 3px;
+
+		&-wrapper {
+			position: relative;
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+
+	&__politics a {
+		margin-right: 5px;
+		color: $ftr-f-grey2;
+	}
+
+	&__responsibility a {
+		margin-right: 5px;
+		color: $ftr-f-grey2;
+	}
+	
+	&__send-mail a{
+		color: $ftr-f-grey2;
+	}
+
+	&__design-logo {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		display: block;
+		width: 9px;
+		height: auto;
+	}
+}
