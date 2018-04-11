@@ -95,7 +95,7 @@
                 		transform: rotate(-90deg);
                 		background-color: $orange;
                 		color: #fff;
-                		font-size: 5px;
+                		font-size: 9px;
                 		// left: -5px;
                 		position: absolute;
                     }
@@ -114,13 +114,9 @@
             font-family: $main-font;
             line-height: 1.5;
         }
-        }
-	
-		
+        }	
 	}
         .order{
-			display: flex;
-			flex-direction: row-reverse;
     
             &__text{
 				font-family: $main-font;
@@ -130,14 +126,13 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 73%;
-                margin: 35px auto 0;
+                width: 25%;
                 
                 &::before{
                     content: '/';
-                    font-size: 25px;
+                    font-size: 30px;
                     color: $f-black;
-                    left: -18px;
+                    left: -25px;
                     position: absolute;
                     line-height: 10px;
                 }
@@ -146,9 +141,7 @@
             &__btn{
                 @include button(134px, 9px, 7px);
                 border: none;
-                margin: 25px auto;
                 display: block;
-                margin: 25px auto;
             }
         }
     }

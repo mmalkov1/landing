@@ -71,8 +71,6 @@
                 font-family: $main-font;
                 font-weight: 800;
             }
-    
-    
         }
     
         .list{
@@ -95,8 +93,7 @@
                 		transform: rotate(-90deg);
                 		background-color: $orange;
                 		color: #fff;
-                		font-size: 5px;
-                		// left: -5px;
+                		font-size: 9px;
                 		position: absolute;
                     }
     
@@ -115,12 +112,9 @@
             line-height: 1.5;
         }
         }
-	
 		
 	}
         .order{
-			display: flex;
-			flex-direction: row-reverse;
     
             &__text{
 				font-family: $main-font;
@@ -130,14 +124,15 @@
                 line-height: 1.4;
                 font-weight: 600;
                 position: relative;
-                width: 73%;
-                margin: 35px auto 0;
+                width: 32%;
+                top: 60px;
+                left: -50px;
                 
                 &::before{
                     content: '/';
-                    font-size: 25px;
+                    font-size: 30px;
                     color: $f-black;
-                    left: -18px;
+                    left: -25px;
                     position: absolute;
                     line-height: 10px;
                 }
@@ -146,9 +141,7 @@
             &__btn{
                 @include button(160px, 12px, 8px);
                 border: none;
-                margin: 25px auto;
                 display: block;
-                margin: 25px auto;
             }
         }
     }

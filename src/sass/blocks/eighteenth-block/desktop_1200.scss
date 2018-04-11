@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1200px) {
+	.eighteenth-block {
+		width: 712px;
+		padding: 63px 0;
+		
+		.info {
+			margin-bottom: 17px;
+
+			&__heading {
+				margin: 0 auto 38px 62px;
+				font-size: 30px;
+			}
+
+			&__text {
+				font-size: 9px;
+				margin: 0 auto 0 82px;
+			}
+
+			.text-strong {
+				font-size: 10px;
+				margin-bottom: 9px;
+			}
+		}
+
+		.quote {
+			margin: 0 auto 0 82px;
+
+			&__text-block {
+				margin-bottom: 22px;
+			}
+
+			&__text {
+				font-size: 10px;
+			}
+		}
+
+		.btn {
+			left: -20px;
+			width: 225px;
+			padding: 13px 0;
+			font-size: 8px;
+		}
+
+		.count {
+			left: 0;
+			top: 78px;
+			width: 288px;
+			padding: 65px;
+
+			&__old {
+
+				&-text {
+					font-size: 10px;
+				}
+
+				&-price {
+					font-size: 11px;
+
+					&:before {
+						width: 29px;
+						height: 1px;
+						left: -29px;
+						top: 7px;
+					}
+				}
+			}
+
+			&__new {
+
+				&-text {
+					font-size: 10px;
+				}
+
+				&-price {
+					font-size: 30px;
+
+					&-sm {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}	
+}

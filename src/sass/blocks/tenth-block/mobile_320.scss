@@ -38,14 +38,13 @@
 	.list{
 		list-style-type: none;
 		counter-reset: list;
-		position: relative;
-		width: 70%;
 		margin: 25px auto;
 		width: 65%;
 
           &__item{
 			margin-left: 20px;
 			margin-bottom: 18px;
+			position: relative;
 
 		&:before{
 			display: inline-block;
@@ -55,8 +54,9 @@
 			background-color: $orange;
 			color: #fff;
 			font-size: 7px;
-			left: -5px;
+			left: -30px;
 			position: absolute;
+			top: 5px;
 		}
 
 	}
@@ -92,6 +92,8 @@
 				left: -20px;
 				position: absolute;
 				line-height: 25px;
+				top: 50%;
+                transform: translateY(-50%);
 			}
 
 		}

@@ -1,0 +1,45 @@
+@media only screen and (min-width:480px) {
+  .seventh-block {
+    &__f-container-info {
+      padding: 0 35px 0 75px;
+    }
+
+    &__title {
+      font-size: 18px;
+      width: 170px;
+    }
+
+    &__paragraph {
+      font-size: 13.5px;
+
+      &::before {
+        top: 8px;
+        font-size: 36px;
+      }
+    }
+
+    &__s-container-info,
+    &__t-container-info {
+      padding: 0 35px;
+    }
+
+    &__s-block-title {
+      margin-bottom: 10px;
+      
+      &--w_f {
+        width: 130px;
+      }
+
+      &--w_s {
+        width: 190px;
+      }
+    }
+
+    &__f-text-title,
+    &__s-text-title,
+    &__s-block-f-paragraph,
+    &__s-block-s-paragraph {
+      font-size: 13.5px;
+    }
+  }
+}

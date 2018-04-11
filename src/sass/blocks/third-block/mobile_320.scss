@@ -36,7 +36,7 @@
 
 	.box{
     .list {
-      width: 75%;
+      width: 85%;
       margin: 0 auto;
      
     &__items {
@@ -71,14 +71,14 @@
 		}
 		
     &__text {
-      font-size: px;
+      font-size: 9px;
       font-family: $main-font;
 			color: $f-black;
 			
       &-count {
         background-color: $blue;
         margin-bottom: 15px;
-        display: inline-block;
+        display: inline;
         font-weight: 600;
       }
 		}
