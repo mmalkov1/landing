@@ -35,9 +35,9 @@ $main-font: 'Acrom', sans-serif;
 		outline: 1px solid transparent
 	}
 
-	&:active {
+	&:active,
+	&:focus {
 		box-shadow: 0 1px 5px rgba(1, 1, 1, 0.3);
 		background-color: #06a4b2;
-		outline: 1px solid transparent
 	}
 }
