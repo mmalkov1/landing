@@ -9,7 +9,7 @@
       display: flex;
       flex-direction: column;
       flex-basis: 45%;
-
+    }
       .img {
         background-image: url(../img/fours-block/img_768.jpg);
         height: 280px;
@@ -19,9 +19,9 @@
         display: flex;
         justify-content: space-between;
 
-        .title__heading{
+        &__heading{
           text-align: left;
-          line-height: 0.9;
+          line-height: 1;
           padding-left: 0;
           width: 50%;
         }
@@ -41,15 +41,17 @@
           font-size: 9px;
         }
       }
-    }
+    
+
     .advantage {
-      flex-basis: 45%;
+      flex-basis: 40%;
 
       .info {
         padding-top: 0;
         padding-left: 0;
         flex-basis: 33%;
         margin-top: 20px;
+        margin-bottom: 10px;
 
         &__heading {
           font-size: 27px;
@@ -60,7 +62,8 @@
         &__text {
           font-size: 9px;
           margin: 0 45px;
-          margin-top: 35px;
+          margin-top: 25px;
+          font-weight: 800;
 
           &:before {
             left: -45px;
@@ -73,10 +76,12 @@
       .list {
         &__heading {
           font-size: 9px;
+          margin-bottom: 5px;
         }
 
         &__text {
           font-size: 8px;
+          margin-bottom: 10px;
         }
       }
     }

@@ -8,22 +8,24 @@
     }
 
     .main {
+
       .title__first {
         font-size: 10px;
       }
 
       .title__text {
         line-height: 1.4;
+        width: 108%;
 
-        &-advantage {
-          font-size: 9px;
+        .title__text-advantage {
+          font-size: 10px;
           font-family: $main-font;
         }
 
-        &-highlight {
+        .title__text-highlight {
           font-weight: 800;
           display: inline-block;
-          margin-bottom: 10px;
+          margin-bottom: 9px;
         }
 
         .highlight__blue {
@@ -33,11 +35,9 @@
     }
     .advantage {
       flex-basis: 45%;
+      margin-left: 25px;
 
       .info {
-        padding-top: 0;
-        padding-left: 0;
-        flex-basis: 33%;
         margin-bottom: 50px;
 
         &__heading {
@@ -58,16 +58,14 @@
         }
       }
 
-      .list {
-
-        &__heading {
-          font-size: 11px;
-        }
-
-        &__text {
+        .list__heading {
           font-size: 10px;
         }
-      }
+
+        .list__text {
+          font-size: 9px;
+        }
+      
     }
   }
 }
