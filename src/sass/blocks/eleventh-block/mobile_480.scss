@@ -1,0 +1,21 @@
+@media only screen and (min-width: 480px) {
+  .eleventh-block {
+    &__rewards-item {
+      padding: 13px 90px;
+    }
+
+    &__f-block-paragraph {
+      margin-bottom: 0;
+    }
+
+    &__f-title {
+      width: 325px;
+    }
+
+    &__abs-f-block-title,
+    &__abs-f-block-paragraph,
+    &__f-block-paragraph {
+      width: 275px;
+    }
+  }
+}

@@ -1,5 +1,74 @@
 @media only screen and (min-width: 1400px) {
 	.second-block {
 		width: 850px;
+
+		.first {
+
+      &:after {
+        font-size: 188px;
+        position: absolute;
+        top: 375px;
+        left: -100px;
+      }
+
+      &__questions {
+        width: 270px;
+        font-size: 12px;
+        margin-right: 160px;
+      }
+
+      &__img-block {
+        width: 344px;
+        height: 322px;
+      }
+
+      &__title {
+        font-size: 36px;
+        width: 300px;
+        position: absolute;
+        right: 130px;
+        bottom: 5px;
+
+        &:before {
+          content: "\2014";
+          position: absolute;
+          left: 0;
+          top: -15px;
+        }
+
+        &_min {
+          font-size: 14px;
+          margin-left: 35px;
+        }
+      }
+    }
+
+		.second {
+			display: flex;
+			position: relative;
+
+			&__title {
+				font-size: 23px;
+				width: 25%;
+			}
+
+			&__list {
+				display: flex;
+				justify-content: flex-start;
+				flex-wrap: wrap;
+				width: 75%;
+			}
+
+			&__list-items {
+				width: 30%;
+				margin-right: 15px;
+				margin-bottom: 25px;
+        font-size: 12px;
+			}
+
+			&__go {
+				font-size: 12px;
+			}
+		}
 	}
 }

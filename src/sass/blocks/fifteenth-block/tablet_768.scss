@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) {
+	.fifteenth-block {
+		width: 640px;
+		margin: auto;
+		padding: 56px 0;
+		display: flex;
+		justify-content: space-between;
+		
+		.wrapper {
+			flex-basis: 50%;
+			position: relative;
+		}
+
+		.info {
+			width: 100%;
+			margin: 28px 0 22px;
+			padding-top: 0;
+
+			&__heading {
+				width: 100%;
+				font-size: 27px;
+				margin-bottom: 0;
+			}
+		}
+
+		.list {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: flex-start;
+			align-content: flex-start;
+			
+			&__count {
+				font-size: 17px;
+			}
+
+			&__item {
+				flex-basis: 47%;
+				margin: 0 0 18px;
+				padding: 0 0 0 30px;
+				overflow-x: hidden;
+
+				&:nth-of-type(3) {
+					margin: 0;
+				}
+			}
+
+			&__heading {
+				font-size: 9px;
+			}
+
+			&__text {
+				font-size: 8px;
+			}
+		}
+
+		.image {
+			display: block;
+			width: 258px;
+			height: auto;
+
+			&__item {
+				width: 100%;
+			}
+		}
+
+		.quote {
+			position: absolute;
+			font-size: 9px;
+			bottom: 0;
+			right: 0;
+
+			&__text {
+				width: 100px;
+				display: block;
+				margin: 0 0 0 auto;
+				bottom: 65px;
+				right: 33px;
+			}
+		}
+
+		.btn {
+			position: absolute;
+			width: 133px;
+			padding: 11px 0;
+			font-size: 7px;
+			bottom: 55px;
+			right: 17px;
+		}
+	}
+}

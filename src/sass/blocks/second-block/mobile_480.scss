@@ -1,0 +1,63 @@
+@media only screen and (min-width: 480px) {
+  .second-block {
+    padding: 35px 18px 25px;
+
+    .first {
+
+      &:after {
+        font-size: 97px;
+        position: absolute;
+        top: 265px;
+        left: -70px;
+      }
+
+      &__questions {
+        font-size: 14px;
+      }
+
+      &__img-block {
+        height: 132px;
+      }
+
+      &__img {
+
+      }
+
+      &__title {
+        font-size: 21px;
+        width: 300px;
+
+        &_min {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .second {
+
+
+      &__title {
+        font-size: 14px;
+      }
+
+      &__list-items {
+        font-size: 13px;
+        margin-bottom: 10px;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 7px;
+          height: 7px;
+          position: absolute;
+          top: 8px;
+          left: -15px;
+        }
+      }
+      &__go {
+        width: 285px;
+        font-size: 13px;
+      }
+    }
+  }
+}

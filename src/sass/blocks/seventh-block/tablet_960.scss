@@ -1,0 +1,39 @@
+@media only screen and (min-width:960px) {
+    .seventh-block {
+        width: 800px;
+
+        &__f-container-info {
+            flex-basis: 35%;
+            padding-left: 45px;
+            margin: 0;
+        }
+
+        &__container-f-img {
+            flex-basis: 45%;
+        }
+
+        &__title {
+            font-size: 34px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        &__paragraph {
+            font-size: 11px;
+        }
+
+        &__container-s-img {
+            width: 345px;
+        }
+
+        &__f-text-title,
+        &__s-text-title,
+        &__s-block-f-paragraph {
+            font-size: 11px;
+        }
+
+        &__s-block-s-paragraph {
+            font-size: 10px;
+        }
+    }
+}

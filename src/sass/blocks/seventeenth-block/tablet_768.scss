@@ -1,0 +1,82 @@
+@media only screen and (min-width: 768px) {
+	.seventeenth-block {
+		width: 640px;
+		margin: auto;
+		padding: 40px 0;
+		display: flex;
+		justify-content: space-between;
+		align-content: flex-start;
+		align-items: flex-start;
+
+		.info {
+			margin: 0;
+			padding: 0;
+			text-align: left;
+
+			&__heading {
+				display: inline;
+				font-size: 27px;
+			}
+
+			&__text {
+				margin: 22px auto 36px 45px;
+				width: 70%;
+				font-size: 9px;
+
+				&:before {
+					font-size: 40px;
+					top: 4px;
+					left: -45px;
+				}
+			}
+		}
+
+		.list {
+			margin: 0;
+			
+			&__item {
+				padding-left: 37px;
+			}
+
+			&__count {
+				font-size: 17px;
+				left: -6px;
+
+				&:after {
+					width: 8px;
+					height: 8px;
+					bottom: -17px;
+				}
+			}
+
+			&__heading {
+				font-size: 9px;
+			}
+
+			&__text {
+				font-size: 8px;
+				margin-top: 11px;
+			}
+		}
+
+		.wrapper {
+			flex-basis: 50%;
+		}
+
+		.form {
+			flex-basis: 50%;
+			margin: 0;
+			padding: 56px;
+
+			&__label {
+				font-size: 7px;
+			}
+
+			.btn {
+				width: 147px;
+				padding: 11px 0;
+				font-size: 7px;
+			}
+		}
+	}
+}

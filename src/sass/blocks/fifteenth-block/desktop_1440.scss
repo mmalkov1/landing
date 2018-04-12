@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1400px) {
+	.fifteenth-block {
+		width: 850px;
+		padding: 75px 0;
+
+		.info {
+			margin: 37px 0 67px;
+
+			&__heading {
+				font-size: 36px;
+			}
+		}
+
+		.list {
+
+			&__item {
+				padding-left: 50px;
+			}
+			
+			&__count {
+				font-size: 23px;
+				left: -8px;
+
+				&:after {
+					width: 10px;
+					height: 10px;
+					bottom: -25px;
+				}
+			}
+			
+			&__heading {
+				font-size: 12px;
+			}
+
+			&__text {
+				font-size: 11px;
+			}
+		}
+
+		.quote {
+			
+			&__text {
+				bottom: 65px;
+   			right: 58px;
+   			font-size: 12px;
+
+   			&:before {
+   				font-size: 25px;
+   				left: -23px;
+   			}
+			}
+		}
+
+		.btn {
+			width: 177px;
+			padding: 15px 0;
+			font-size: 9px;
+			bottom: 40px;
+    	right: -7px;
+		}
+
+		.image {
+			width: 345px;
+		}
+	}
+}

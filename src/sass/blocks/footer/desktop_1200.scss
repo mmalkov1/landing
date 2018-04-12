@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1200px) {
+	.footer {
+		
+		&__first-row {
+			padding: 60px 0;
+
+			&-wrapper {
+				width: 720px;
+			}
+		}
+
+		&__logo {
+			width: 63px;
+		}
+
+		&__first-column {
+			padding: 0 10px;
+		}
+
+		&__second-column {
+			padding: 0 10px;
+		}
+
+		&__third-column {
+			padding: 0 10px;
+		}
+
+		&__heading {
+			font-size: 9px;
+			margin-bottom: 11px;
+		}
+
+		&__adress {
+			font-size: 9px;
+		}
+
+		&__mail {
+			font-size: 9px;
+		}
+
+		&__phone {
+			font-size: 9px;
+		}
+
+		&__social {
+			font-size: 10px;
+		}
+
+		&__btn {
+			width: 138px;
+			padding: 13px 0;
+			font-size: 8px;
+		}
+
+		&__second-row {
+			padding: 15px 0;
+			font-size: 8px;
+
+			&-wrapper {
+				width: 720px;
+			}
+		}
+
+		&__politics a {
+			margin-right: 8px;
+		}
+
+		&__responsibility a {
+			margin-right: 8px;
+		}
+		
+		&__design-logo {
+			width: 19px;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+@media only screen and (min-width: 960px) {
+	.nineteen-block {
+		width: 800px;
+
+		&__ps-info {
+			width: 40%;
+		}
+		&__info-registration {
+			width: 55%;
+		}
+
+		&__title {
+			font-size: 36px;
+		}
+
+		&__info-paragraph {
+			font-size: 11px;
+			width: 240px;
+		}
+
+		&__button-take-course {
+		@include button (185px, 10px, 10px);
+			margin: 0 0 0 38px;
+		}
+
+		&__ps-f-text,
+		&__ps-s-text,
+		&__ps-t-text,
+		&__ps-your-choise {
+			font-size: 11px;
+		}
+	}
+}

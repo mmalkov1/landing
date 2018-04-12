@@ -1,0 +1,67 @@
+@media only screen and (min-width: 480px) {
+	.footer {
+		&__first-row {
+			padding: 40px 10px;
+		}
+
+		&__logo {
+			width: 40px;
+		}
+
+		&__first-column {
+			padding: 0 6px;
+		}
+
+		&__second-column {
+			padding: 0 6px;
+		}
+
+		&__third-column {
+			padding: 0 6px;
+		}
+
+		&__heading {
+			font-size: 5px;
+			margin-bottom: 7px;
+		}
+
+		&__adress {
+			font-size: 5px;
+		}
+
+		&__mail {
+			font-size: 5px;
+		}
+
+		&__phone {
+			font-size: 5px;
+		}
+
+		&__social {
+			font-size: 6px;
+		}
+
+		&__btn {
+			width: 87px;
+			padding: 8px 0;
+			font-size: 5px;
+		}
+
+		&__second-row {
+			padding: 8px 10px;
+			font-size: 5px;
+		}
+
+		&__politics a {
+			margin-right: 5px;
+		}
+
+		&__responsibility a {
+			margin-right: 5px;
+		}
+		
+		&__design-logo {
+			width: 14px;
+		}
+	}
+}	

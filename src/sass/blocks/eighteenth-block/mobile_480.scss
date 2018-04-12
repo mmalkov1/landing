@@ -1,0 +1,86 @@
+@media only screen and (min-width: 480px) {
+	.eighteenth-block {
+		 padding: 18px 10px 66px;
+
+		.info {
+			margin-bottom: 25px;
+
+			&__heading {
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+
+			&__text {
+				width: 65%;
+				font-size: 13px;
+			}
+
+			.text-strong {
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+		}
+
+		.count {
+			padding: 80px 14%;
+
+			&__old {
+
+				&-text {
+					font-size: 13px;
+				}
+
+				&-price {
+					font-size: 14px;
+
+					&:before {
+						height: 2px;
+						width: 38px;
+						top: 8px;
+						left: -38px;
+						opacity: .3;
+					}
+				}
+			}
+
+			&__new {
+
+				&-text {
+					font-size: 13px;
+					font-weight: 500;
+					line-height: 1.6;
+				}
+
+				&-price {
+					font-size: 39px;
+
+					&-sm {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+
+		.quote {
+			width: 65%;
+			
+			&__text-block {
+				margin-bottom: 30px;
+			}
+
+			&__text {
+				font-size: 14px;
+
+				&:before {
+					font-size: 30px;
+				}
+			}
+		}
+
+		.btn {
+			width: 295px;
+			padding: 17px 0;
+			font-size: 10px;
+		}
+	}
+}

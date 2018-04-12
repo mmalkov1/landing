@@ -1,0 +1,35 @@
+@media only screen and (min-width: 960px) {
+	.eleventh-block {
+		width: 800px;
+		padding: 30px 0;
+
+		&__f-title {
+			font-size: 33px;
+		}
+
+		&__f-block-paragraph {
+			font-size: 11px;
+			width: 230px;
+		}
+
+		&__abs-f-block {
+			width: 55%;
+		}
+
+		&__s-block-title {
+			font-size: 11px;
+		}
+
+		&__s-block-paragraph {
+			font-size: 10px;
+		}
+
+		&__info-text {
+			font-size: 11px;
+		}
+
+		&__pt {
+		padding-top: 30px;
+		}
+	}
+}
