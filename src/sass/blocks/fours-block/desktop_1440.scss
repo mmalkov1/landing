@@ -1,69 +1,48 @@
 @media only screen and (min-width: 1400px) {
   .fours__block {
-		width: 850px;
-		
+    width: 850px;
+
     .img {
       background-image: url(../img/fours-block/img_1440.jpg);
       height: 370px;
-		}
-		
+    }
+
     .main {
       .title__first {
         font-size: 12px;
-			}
-			
+      }
+
       .title__text {
-				line-height: 1.4;
-				
-        &-advantage {
+        line-height: 1.4;
+
+        .title__text-advantage {
           font-size: 12px;
-          font-family: $main-font;
-				}
-				
-        &-highlight {
-          font-weight: 800;
-          display: inline-block;
+        }
+
+        .title__text-highlight {
           margin-bottom: 11px;
-				}
-				
-        .highlight__blue {
-          background-color: $blue;
         }
       }
     }
     .advantage {
-			flex-basis: 45%;
-      padding-right: 50px;
-			
-      .info {
-				
-        &__heading {
-          font-size: 36px;
-				}
-				
-        &__text {
-          font-size: 12px;
-          margin: 0 45px;
-          margin-top: 25px;
-					
-          &:before {
-            left: -45px;
-            top: 4px;
-            font-size: 40px;
-            font-weight: 800;
-          }
-        }
+      flex-basis: 45%;
+
+      .info__heading {
+        font-size: 36px;
       }
-      .list {
-				
-        &__heading {
-          font-size: 12px;
-				}
-				
-        &__text {
-          font-size: 11px;
-        }
+
+      .info__text {
+        font-size: 12px;
+      }
+
+      .list__heading {
+        font-size: 12px;
+      }
+      
+      .list__text {
+        font-size: 11px;
       }
     }
   }
 }
+
