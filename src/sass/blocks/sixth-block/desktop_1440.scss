@@ -1,5 +1,60 @@
 @media only screen and (min-width: 1400px) {
-	.second-block {
+	.sixth-block {
 		width: 850px;
+
+		.hard{
+			display: block;
+
+			.hard__img{
+				background-image: url(../img/sixth-block/img_1440.png);
+				height: 555px;
+		    }
+
+			&__text{
+				font-size: 187px;
+		    }
+		}
+
+		.text__block{
+			flex-basis: 45%;
+
+		.info {
+
+			&__heading {
+				font-size: 36px;
+				margin-bottom: 45px;
+			}
+
+			&__text {
+				font-size: 12px;
+
+				&:before {
+					left: -55px;
+				}
+			}
+		}
+	}
+	.list {
+
+		&__item{
+			list-style-type: none;
+			position: relative;
+
+			&:before{
+				content: '';
+				left: -30px;
+			}
+		}
+		
+
+		&__heading {
+		  font-size: 12px;
+		}
+
+		&__text {
+		  font-size: 10px;
+		}
+	  }
+
 	}
 }

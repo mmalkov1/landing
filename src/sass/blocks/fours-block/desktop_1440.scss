@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1400px) {
+  .fours__block {
+    width: 850px;
+
+    .img {
+      background-image: url(../img/fours-block/img_1440.jpg);
+      height: 370px;
+    }
+
+    .main {
+      .title__first {
+        font-size: 12px;
+      }
+
+      .title__text {
+        line-height: 1.4;
+
+        .title__text-advantage {
+          font-size: 12px;
+        }
+
+        .title__text-highlight {
+          margin-bottom: 11px;
+        }
+      }
+    }
+    .advantage {
+      flex-basis: 45%;
+
+      .info__heading {
+        font-size: 36px;
+      }
+
+      .info__text {
+        font-size: 12px;
+      }
+
+      .list__heading {
+        font-size: 12px;
+      }
+      
+      .list__text {
+        font-size: 11px;
+      }
+    }
+  }
+}
+

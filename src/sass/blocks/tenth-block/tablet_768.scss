@@ -1,0 +1,155 @@
+@media only screen and (min-width: 768px) {
+	.tenth-block {
+        width: 640px;
+        padding: 55px 0;
+        margin: auto; 
+    
+        .title{
+			display: flex;
+			justify-content: space-between;
+    
+            &__img{
+                background-image: url(../img/tenth-block/img_768.jpg);
+                display: block;
+                // width: 100%;
+                height: 170px;
+                background-repeat: no-repeat;
+				margin: auto;
+				// flex-basis: 50%;
+            }
+    
+            &__info{
+				display: block;
+				margin: 0 auto;
+				
+				&-heading{
+					font-size: 27px;
+					font-family: $main-font;
+					font-weight: 800;
+					text-transform: uppercase;
+					padding-left: 10%;
+					margin-bottom: 25px;
+
+				}
+
+				&-text{
+					font-size: 9px;
+					font-family: $main-font;
+					font-weight: 700;
+					position: relative;
+					width: 40%;
+					left: 20%;
+					padding-left: 2%;
+
+					&:before {
+						content: '\2014';
+						position: absolute;
+						left: -30px;
+						top: 4px;
+						line-height: 0;
+						font-size: 40px;
+						font-weight: 800;
+					}
+
+				}
+            }
+        }
+	
+		.main{
+			display: flex;
+			margin-top: 50px;
+
+		
+        .about{
+            width: 21%;
+            margin: 15px auto;
+    
+            &__title{
+                font-size: 9px;
+                text-transform: uppercase;
+                color: $f-black;
+                line-height: 1.5;
+                font-family: $main-font;
+                font-weight: 800;
+            }
+    
+    
+        }
+    
+        .list{
+            list-style-type: none;
+            counter-reset: list;
+			display: flex;
+			flex-flow: row wrap;
+			width: 75%;
+			
+              &__item{
+                margin-left: 30px;
+				margin-bottom: 18px;
+                flex-basis: 25%;
+                position: relative;
+    
+                   &:before{
+                		display: inline-block;
+                		content: "[00"  counter(list) "]";
+                		counter-increment: list;
+                		transform: rotate(-90deg);
+                		background-color: $orange;
+                		color: #fff;
+                		font-size: 9px;
+                		left: -30px;
+                        position: absolute;
+                        top: 5px;
+                    }
+    
+				}
+				
+        .list__heading{
+            font-size: 9px;
+            font-weight: 800;
+            font-family: $main-font;
+        }
+    
+        .list__text{
+            font-size: 8px;
+            font-family: $main-font;
+            line-height: 1.5;
+        }
+        }
+	
+		
+	}
+        .order{
+    
+            &__text{
+				font-family: $main-font;
+				display: block;
+                font-size: 9px;
+                color: $orange;
+                line-height: 1.4;
+                font-weight: 600;
+                position: relative;
+                width: 32%;
+                top: 55px;
+                left: -20px;
+                
+                &::before{
+                    content: '/';
+                    font-size: 28px;
+                    color: $f-black;
+                    left: -25px;
+                    position: absolute;
+                    line-height: 10px;
+                }
+    
+            }
+            &__btn{
+                @include button(120px, 9px, 6px);
+                border: none;
+                display: block;
+                margin-left: 0;
+                
+            }
+        }
+    }
+}

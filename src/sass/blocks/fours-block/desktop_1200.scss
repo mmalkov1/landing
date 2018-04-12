@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1200px) {
+  .fours__block {
+    width: 712px;
+
+    .img {
+      background-image: url(../img/fours-block/img_1200.jpg);
+      height: 312px;
+    }
+
+    .main {
+
+      .title__first {
+        font-size: 10px;
+      }
+
+      .title__text {
+        line-height: 1.4;
+        width: 108%;
+
+        .title__text-advantage {
+          font-size: 10px;
+          font-family: $main-font;
+        }
+
+        .title__text-highlight {
+          font-weight: 800;
+          display: inline-block;
+          margin-bottom: 9px;
+        }
+
+        .highlight__blue {
+          background-color: $blue;
+        }
+      }
+    }
+    .advantage {
+      flex-basis: 45%;
+      margin-left: 25px;
+
+      .info {
+        margin-bottom: 50px;
+
+        &__heading {
+          font-size: 30px;
+        }
+
+        &__text {
+          font-size: 11px;
+          margin: 0 45px;
+          margin-top: 25px;
+
+          &:before {
+            left: -45px;
+            top: 4px;
+            font-size: 40px;
+            font-weight: 800;
+          }
+        }
+      }
+
+        .list__heading {
+          font-size: 10px;
+        }
+
+        .list__text {
+          font-size: 9px;
+        }
+      
+    }
+  }
+}

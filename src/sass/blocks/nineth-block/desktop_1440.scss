@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1400px) {
+	.nineth-block {
+		width: 850px;
+		padding-bottom: 70px;
+
+		.info {
+						
+			&__bcg {
+				
+				&-num {
+					font-size: 350px;
+					left: 155px;
+				}
+
+				&-text {
+					left: 255px;
+					font-size: 95px;
+				}
+			}
+
+			&__heading {
+				margin: 0 auto 30px 0;
+				font-size: 36px;	
+			}
+
+			&__text {
+				font-size: 12px;
+				margin-left: 46px;
+
+				&:before {
+					top: 8px;
+					left: -46px;
+					font-size: 50px;
+				}
+			}
+		}
+
+		.list {
+
+			&__item {
+				min-height: 125px;
+			}	
+			
+			&__count {
+				left: -10px;
+				font-size: 23px;
+			}
+
+			&__heading {
+				font-size: 12px;
+			}
+
+			&__text {
+				font-size: 11px;
+			}
+		}
+
+		.quote {
+			
+			&__text {
+				font-size: 12px;
+				
+				&:before {
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}

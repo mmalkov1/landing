@@ -1,0 +1,78 @@
+.nineteen-block {
+	padding: 0 10px;
+	&__info-registration {
+		padding: 0 30px;
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-weight: bold;
+		font-size: 12px;
+		margin-bottom: 12px;
+		padding-left: 5px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+
+	&__info-paragraph {
+		font-size: 9px;
+		padding-left: 15px;
+		margin-bottom: 20px;
+		position: relative;
+		font-weight: bold;
+		
+		&:before {
+			position: absolute;
+			content: "\2014";
+			top: 0;
+			left: 0;
+			font-weight: bold;
+		}
+	}
+
+	&__button-take-course {
+		@include button (100%, 10px, 7px);
+		display: block;
+		border: none;
+		margin: 0 auto 40px;
+	}
+
+	&__ps-f-text {
+		font-weight: bold;
+		position: relative;
+
+		&:before {
+			content: "P.S. :";
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: translateY(-100%);
+			font-size: 12px;
+		}
+	}
+
+	&__ps-info {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	&__ps-f-text,
+	&__ps-s-text,
+	&__ps-t-text {
+		font-size: 9px;
+		margin-bottom: 20px;
+	}
+
+	&__bold-text {
+		font-weight: bold;
+	}
+
+	&__ps-your-choise {
+		color: $orange;
+		text-align: right;
+		font-size: 9px;
+		margin-bottom: 30px;
+		font-weight: bold;
+	}
+}

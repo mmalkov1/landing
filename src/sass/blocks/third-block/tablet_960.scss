@@ -1,27 +1,43 @@
 @media only screen and (min-width: 960px) {
-	.third-block {
-		min-width: 960px;
-		padding: 50px 80px;
+  .third-block {
+    width: 800px;
+	  padding: 70px 0;
+	
+    .info {
+      flex-basis: 41%;
 
-		.main__title{
-			font-size: 33px;
-		}
+      &__heading {
+        font-size: 34px;
+        margin-bottom: 20px;
+	  }
+	  
+      &__text {
+        font-size: 11px;
+        font-weight: 500;
+		    margin: 0 60px;
 		
-		.main__text{
-			font-size: 11px;
-			width: 150px;
+        &:before {
+          line-height: 0;
+          left: -60px;
+          top: 4px;
+          font-size: 50px;
+        }
+      }
+    }
+    .box {
 
-			&:before{
-				top: 90px;
-			}
-		}
-
-		.list__heading{
-			font-size: 21px;
-		}
-
-		.list__text{
-			font-size: 10px;
-		}
-	}
+      .list__heading {
+        font-size: 21px;
+	  }
+	  
+      .list__text {
+        font-size: 10px;
+	  }
+	  
+      .box__img {
+        bottom: 0;
+        right: -35px;
+      }
+    }
+  }
 }

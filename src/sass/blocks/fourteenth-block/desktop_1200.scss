@@ -1,0 +1,26 @@
+@media only screen and (min-width:1200px) {
+    .fourteenth-block {
+        width: 712px;
+
+        &__paragraph,
+        &__list-title {
+            font-size: 10px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__s-paragraph {
+            font-size: 10px;
+        }
+
+        &__s-title {
+            font-size: 15px;
+        }
+
+        &__list-paragraph {
+            font-size: 8.75px;
+        }
+    }
+}

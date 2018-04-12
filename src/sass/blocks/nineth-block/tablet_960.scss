@@ -1,0 +1,87 @@
+@media only screen and (min-width: 960px) {
+	.nineth-block {
+		width: 800px;
+
+		.info {
+			margin-bottom: 0;
+						
+			&__bcg {
+				
+				&-num {
+					font-size: 360px;
+					left: 125px;
+					top: 20px;
+					line-height: 187px;
+				}
+
+				&-text {
+					left: 232px;
+					top: 67px;
+					font-size: 95px;
+					text-transform: uppercase;
+				}
+			}
+
+			&__heading {
+				margin: 0 auto 28px 0;
+				font-size: 34px;		
+			}
+
+			&__text {
+				font-size: 11px;
+				margin-left: 46px;
+
+				&:before {
+					top: 8px;
+					left: -46px;
+					font-size: 50px;
+				}
+			}
+		}
+
+		.list {
+
+			&__item {
+				padding-left: 40px;
+				min-height: 115px;
+				margin-top: 0;
+
+			  &:nth-of-type(3),
+			  &:nth-of-type(4) {
+			  	min-height: 65px;
+			  }
+			}	
+			
+			&__count {
+				left: -8px;
+				line-height: 6px;
+				font-size: 21px;
+
+				&:after {
+					bottom: -25px;
+					width: 10px;
+					height: 10px;
+				}
+			}
+
+			&__heading {
+				font-size: 11px;
+			}
+
+			&__text {
+				font-size: 10px;
+			}
+		}
+
+		.quote {
+			
+			&__text {
+				font-size: 11px;
+				
+				&:before {
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1200px) {
+	.nineteen-block {
+		width: 712px;
+
+		&__title {
+		font-size: 30px;
+		}
+
+		&__info-paragraph {
+		font-size: 13px;
+		width: 250px;
+		}
+
+		&__button-take-course {
+		@include button (185px, 10px, 10px);
+		margin: 0 0 0 38px;
+		}
+
+		&__ps-f-text,
+		&__ps-s-text,
+		&__ps-t-text,
+		&__ps-your-choise {
+		font-size: 11px;
+		}
+	}
+}

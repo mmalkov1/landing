@@ -1,0 +1,26 @@
+@media only screen and (min-width: 480px) {
+  .thirteenth-block {
+
+    &__f-block,
+    &__s-block {
+        width: 50%;
+    }
+
+    &__f-block-title {
+        font-size: 18px;
+    }
+
+    &__f-block-paragraph {
+        font-size: 14px;
+    }
+
+    &__f-block-paragraph::before {
+        font-weight: bold;
+    }
+
+    &__s-block-title,
+    &__s-block-paragraph {
+        font-size: 14px;
+    }
+  }
+}

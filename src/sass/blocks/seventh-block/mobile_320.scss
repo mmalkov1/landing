@@ -1,0 +1,85 @@
+.seventh-block {
+	padding: 25px 10px;
+
+	&__f-container-info {
+		padding-left: 50px;
+	}
+
+	&__title {
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 800;
+		margin-bottom: 10px;
+		width: 115px;
+	}
+
+	&__paragraph {
+		font-size: 9px;
+		font-weight: 600;
+		position: relative;
+
+		&::before {
+			content: "\2014";
+			position: absolute;
+			left: -30px;
+			top: 4px;
+			line-height: 0;
+			font-size: 28px;
+			font-weight: 800;
+		}
+
+		&--mb {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		height: auto;
+	}
+
+	&__s-container-info,
+	&__t-container-info {
+		padding-left: 25px;
+	}
+
+	&__s-block-title {
+		margin-bottom: 10px;
+		line-height: 1;
+		
+		&--w_f {
+			width: 85px;
+		}
+
+		&--w_s {
+			width: 125px;
+		}
+	}
+
+	&__f-text-title,
+	&__s-text-title {
+		font-size: 9px;
+		text-transform: uppercase;
+		font-weight: 800;
+		background-color: #000;
+		color: #fff;
+	}
+
+	&__s-block-f-paragraph {
+		font-size: 9px;
+		font-weight: 800;
+		margin-bottom: 10px;
+	}
+
+	&__s-block-s-paragraph {
+		font-size: 9px;
+
+		&--mb {
+			margin-bottom: 10px;
+		}
+	}
+
+	&__hidden-text {
+		display: none;
+	}
+}
