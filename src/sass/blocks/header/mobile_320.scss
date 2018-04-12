@@ -123,6 +123,7 @@
     @include button(146px, 15px, 8px);
     display: block;
     margin: 0 auto;
+    z-index: 2;
   }
 
   &__end {
