@@ -42,7 +42,7 @@
     color: #0a1a2d;
     font-size: 80px;
     position: absolute;
-    top: 60%;
+    top: 59%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
@@ -123,6 +123,7 @@
     @include button(146px, 15px, 8px);
     display: block;
     margin: 0 auto;
+    z-index: 2;
   }
 
   &__end {

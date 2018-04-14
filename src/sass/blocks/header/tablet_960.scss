@@ -5,7 +5,7 @@
 
     &__navigation {
       padding: 25px 0 51px;
-      width: 718px;
+      width: 800px;
     }
 
     &__logo {
@@ -25,22 +25,22 @@
     }
 
     &__info {
-      width: 718px;
+      width: 800px;
       margin: 0 auto;
       //width: 960px;
     }
 
     &__bg-text {
-      font-size: 270px;
+      font-size: 294px;
     }
 
     .header__bg-img {
       display: block;
-      width: 520px;
+      width: 560px;
       height: 650px;
       position: absolute;
       bottom: -340px;
-      right: 0px;
+      right: 10px;
     }
 
     &__title {
@@ -61,6 +61,9 @@
       }
 
       &:after {
+        position: absolute;
+        top: 40px;
+        right: -25px;
       }
     }
 
@@ -84,7 +87,7 @@
     }
 
     &__end {
-      width: 718px;
+      width: 800px;
     }
 
     &__numbers {
@@ -94,10 +97,10 @@
     &__count {
 
       &_first {
-
+        font-size: 17px;
       }
       &_second {
-
+        font-size: 10px;
       }
     }
 
@@ -109,12 +112,13 @@
     }
 
     &__svg-fb {
+      height: 15px;
       &_path {
       }
     }
 
     &__svg-tw {
-
+      height: 15px;
       &_path {
 
       }

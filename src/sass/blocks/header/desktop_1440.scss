@@ -2,15 +2,17 @@
 
   .header {
 
-    &__navigation {
 
+    &__navigation {
+      width: 100%;
     }
 
     &__logo {
-
+      height: 26px;
+      width: 76px;
     }
 
-    &__menu {
+    &__button-menu {
 
     }
 
@@ -21,40 +23,101 @@
       }
     }
 
+    &__info {
+      display: flex;
+      width: 850px;
+      margin: 0 auto;
+    }
+
+    &__bg-text {
+      font-size: 315px;
+    }
+
+    .header__bg-img {
+      position: absolute;
+      bottom: -340px;
+      right: 30px;
+    }
+
     &__title {
+      width: 480px;
 
     }
 
     &__title-main {
-
+      font-size: 60px;
     }
 
     &__description {
-
+      font-size: 11px;
+      width: 240px;
 
       &:before {
 
       }
 
       &:after {
-
       }
     }
 
     &__text {
-
+      width: 180px;
     }
 
     &__slogan {
-
+      font-size: 13px;
+      width: 190px;
     }
 
     &__text-min {
-
+      font-size: 12px;
+      width: 190px;
     }
 
     &__button-buy {
-      //@include button(146px, 15px, 8px);
+      @include button(146px, 16px, 8px);
+      position: relative;
+      right: 290px;
     }
+
+    &__end {
+      width: 100%;
+    }
+
+    &__numbers {
+    }
+
+    &__count {
+
+      &_first {
+        font-size: 15px;
+      }
+      &_second {
+        font-size: 9px;
+      }
+    }
+
+    &__social {
+      position: relative;
+      bottom: 0;
+      right: 22px;
+    }
+
+    &__svg-fb {
+      &_path {
+      }
+    }
+
+    &__svg-tw {
+
+      &_path {
+
+      }
+    }
+  }
+
+  .span {
+    position: relative;
+    left: -105px;
   }
 }

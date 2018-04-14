@@ -2,100 +2,96 @@
   width: 100%;
   padding: 0 10px;
 
-  
+  .info {
+    padding-top: 10px;
+    padding-left: 25px;
+    width: 63%;
+    margin: 0 auto 25px;
 
-    .info {
-      padding-top: 10px;
-      padding-left: 25px;
-      width: 63%;
-	    margin: 0 auto 25px;
-	  
-      &__heading {
-        display: block;
-        font-family: $main-font;
-        width: 110%;
-        font-size: 12px;
-        font-weight: 800;
-        color: $f-black;
-        text-transform: uppercase;
-        margin-bottom: 25px;
-	  }
-	  
-      &__text {
-        position: relative;
-        font-size: 9px;
-		    font-weight: 600;
-        left: 15%;
-        font-family: $main-font;
-		
-        &:before {
-          content: '\2014';
-          position: absolute;
-          left: -30px;
-          top: 4px;
-          line-height: 0;
-          font-size: 28px;
-          font-weight: 800;
-        }
-      }
-	}
-	
-    .img {
-      background-image: url(../img/sixteenth-block/img1_320.jpg);
+    &__heading {
       display: block;
-      width: 100%;
-      height: 111px;
-      margin: 30px auto;
-      background-repeat: no-repeat;
-      background-position: 50%;
+      font-family: $main-font;
+      width: 110%;
+      font-size: 12px;
+      font-weight: 800;
+      color: $f-black;
+      text-transform: uppercase;
+      margin-bottom: 25px;
     }
 
+    &__text {
+      position: relative;
+      font-size: 9px;
+      font-weight: 600;
+      left: 15%;
+      font-family: $main-font;
 
-    .title{
-      width: 60%;
-      margin: 0 auto;
-
-      &__heading{
-        font-family: $main-font;
-        font-size: 9px;
-        text-transform: uppercase;
+      &:before {
+        content: '\2014';
+        position: absolute;
+        left: -30px;
+        top: 4px;
+        line-height: 0;
+        font-size: 28px;
         font-weight: 800;
       }
+    }
+  }
 
-      &__text{
-        font-family: $main-font;
-        font-size: 9px;
-        margin: 12px 0;
-      }
+  .img {
+    background-image: url(../img/sixteenth-block/img1_320.jpg);
+    display: block;
+    width: 100%;
+    height: 111px;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+
+  .title {
+    width: 60%;
+    margin: 0 auto;
+
+    &__heading {
+      font-family: $main-font;
+      font-size: 9px;
+      text-transform: uppercase;
+      font-weight: 800;
     }
 
+    &__text {
+      font-family: $main-font;
+      font-size: 9px;
+      margin: 12px 0;
+    }
+  }
 
-    .result{
+  .result {
 
-      &__title{
-        text-transform: uppercase;
-        font-family: $main-font;
-        font-size: 9px;
-        font-weight: 600;
-        margin: 20px auto;
-        width: 80%;
-        text-align: left;
-      }
+    &__title {
+      text-transform: uppercase;
+      font-family: $main-font;
+      font-size: 9px;
+      font-weight: 600;
+      margin: 20px auto;
+      width: 80%;
+      text-align: left;
+    }
 
-      .list{
-        list-style-type: none;
-        counter-reset: list;
-        margin: 25px auto;
-        width: 65%;
-    
-              &__item{
-                margin-left: 20px;
-                margin-bottom: 18px;
-                position: relative;
-    
-        &:before{
+    .list {
+      list-style-type: none;
+      counter-reset: list;
+      margin: 25px auto;
+      width: 65%;
+
+      &__item {
+        margin-left: 20px;
+        margin-bottom: 18px;
+        position: relative;
+
+        &:before {
           display: inline-block;
-          content: "[00"  counter(list) "]";
+          content: "[00" counter(list) "]";
           counter-increment: list;
           transform: rotate(-90deg);
           background-color: $orange;
@@ -105,60 +101,53 @@
           position: absolute;
           top: 5px;
         }
-    
       }
-      .list__heading{
+
+      .list__heading {
         font-size: 9px;
         font-weight: 800;
         font-family: $main-font;
       }
-    
-      .list__text{
+
+      .list__text {
         font-size: 9px;
         font-family: $main-font;
         line-height: 1.5;
       }
+    }
+
+    &__price {
+      display: flex;
+      justify-content: center;
+
+      &-text {
+        width: 35%;
+        font-family: $main-font;
+        font-size: 11px;
+        font-weight: 600;
+
+        .blue-bg {
+          background-color: $blue;
+        }
       }
 
+      &-num {
+        font-family: $main-font;
 
-      &__price{
-        display: flex;
-        justify-content: center;
-
-        &-text{
-          width: 35%;
+        .first-price {
           font-family: $main-font;
           font-size: 11px;
-          font-weight: 600;
-
-          .blue-bg{
-            background-color: $blue;
-          }
-
+          text-decoration: line-through;
+          text-transform: uppercase;
         }
-
-        &-num{
+        
+        .second-price {
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 13px;
           font-family: $main-font;
-         
-
-          .first-price{
-            font-family: $main-font;
-            font-size: 11px;
-            text-decoration: line-through;
-            text-transform: uppercase;
-            
-          }
-
-          .second-price{
-            text-transform: uppercase;
-            font-weight: 800;
-            font-size: 13px;
-            font-family: $main-font;
-
-          }
-
         }
       }
     }
-  
+  }
 }

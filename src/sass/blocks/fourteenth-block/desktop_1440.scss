@@ -1,5 +1,23 @@
 @media only screen and (min-width:1440px) {
     .fourteenth-block {
         width: 850px;
+
+        &__paragraph,
+        &__s-paragraph,
+        &__list-title {
+            font-size: 12px;
+        }
+
+        &__dark-text {
+            font-size: 36px;
+        }
+
+        &__s-title {
+            font-size: 18px;
+        }
+
+        &__list-paragraph {
+            font-size: 10.5px;
+        }
     }
 }

@@ -17,19 +17,18 @@
         display: flex;
         justify-content: space-between;
 
-        &__first {
+        .title__first {
           font-size: 11px;
           background-color: #000;
-          display: inline-block;
         }
 
-        &-advantage {
-          font-size: 10px;
+        .title__text-advantage {
+          font-size: 11px;
         }
       }
     }
     .advantage {
-      flex-basis: 45%;
+      flex-basis: 44%;
 
       .info {
         padding-top: 0;
@@ -53,11 +52,14 @@
           }
         }
       }
+
       .list {
+        margin-top: 45px;
 
         &__items {
           list-style-type: none;
           position: relative;
+          margin-bottom: 30px;
           
           &:before {
             content: '';
@@ -65,11 +67,12 @@
             width: 9px;
             height: 9px;
             background-color: #000;
-            left: -20px;
+            left: -27px;
           }
         }
         &__heading {
           font-size: 11px;
+          margin-bottom: 10px;
         }
         
         &__text {
