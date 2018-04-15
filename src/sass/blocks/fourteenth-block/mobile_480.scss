@@ -1,5 +1,9 @@
 @media only screen and (min-width:480px) {
     .fourteenth-block {
+        
+        &__block-img {
+            width: 220px;
+        }
 
         &__container-img {
             background-position: 150px 20px;
@@ -7,6 +11,7 @@
 
         &__paragraph {
             font-size: 14px;
+            margin: 40px auto 15px;
                 
             &::before{
                 top: -2px;
@@ -16,7 +21,15 @@
 
         &__title {
             font-size: 18px;
-            width: 260px;
+            width: 80%;
+        }
+
+        &__s-title {
+            font-size: 14px;
+        }
+
+        &__s-block {
+            margin: 0 auto 0 10%;
         }
 
         &__s-paragraph {
@@ -24,6 +37,7 @@
             width: 270px;
             /*border: 1px solid green;*/
             padding-left: 30px;
+            margin: 0 auto 55px;
 
             &::before {
                 left: 5px;
@@ -34,10 +48,11 @@
         }
 
         &__dark-text {
-            font-size: 14px;
+            font-size: 18px;
         }
 
         &__list-item {
+            padding-left: 65px;
 
             &:before{
                 font-size: 9px;

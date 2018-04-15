@@ -1,8 +1,9 @@
 @media only screen and (min-width: 480px) {
   .second-block {
-    padding: 35px 18px 25px;
+    padding: 52px 18px 25px;
 
     .first {
+      margin-bottom: 42px;
 
       &:after {
         font-size: 97px;
@@ -10,8 +11,9 @@
         top: 265px;
         left: -70px;
       }
-
+      
       &__questions {
+        margin-bottom: 25px;
         font-size: 14px;
       }
 
@@ -34,15 +36,19 @@
     }
 
     .second {
-
-
+      
+      &__list {
+        width: 84%;
+      }
+      
       &__title {
+        margin-bottom: 15px;
         font-size: 14px;
       }
 
       &__list-items {
         font-size: 13px;
-        margin-bottom: 10px;
+        margin-bottom: 22px;
         position: relative;
 
         &:before {

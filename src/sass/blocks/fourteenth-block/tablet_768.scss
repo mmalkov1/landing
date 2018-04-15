@@ -10,8 +10,12 @@
             display: flex;
         }
 
+        &__s-block {
+            margin: 0 auto;
+        }
+
         &__f-block {
-            align-items: center;
+            align-items: flex-start;
         }
 
         &__container-img,
@@ -19,8 +23,12 @@
             flex-basis: 50%;
         }
 
+        &__container-img {
+            margin-bottom: 40px;
+        }
+
         &__paragraph {
-            margin: 35px 0 15px;
+            margin: 0 0 15px;
             padding-left: 20px;
             font-size: 10px;
             width: 50%;
@@ -56,12 +64,18 @@
         &__list {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             flex-wrap: wrap;
         }
 
         &__list-item {
             flex-basis: 30%;
+            padding-left: 57px;
+            margin-bottom: 10px;
+
+            &:before {
+                font-size: 5px;
+            }
         }
 
         &__list-title,
@@ -71,6 +85,7 @@
         
         &__list-paragraph {
             font-size: 8px;
+            width: 100%;
         }
     }
 }

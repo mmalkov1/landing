@@ -20,7 +20,7 @@
 		text-transform: uppercase;
 		font-size: 9px;
 		font-weight: 800;
-		width: 183px;
+		width: 75%;
 		margin: 0 auto;
 		margin-bottom: 10px;
 	}
@@ -28,8 +28,7 @@
 	&__abs-f-block-paragraph {
 		font-size: 9px;
 		width: 183px;
-		margin: 0 auto;
-		margin-bottom: 25px;
+		margin: 0 auto 18px;
 	}
 
 	&__f-block-paragraph {
@@ -53,32 +52,32 @@
 	}
 
 	&__rewards-item {
-		padding: 13px 50px;
+		padding: 0 50px;
 
 		&--bg-f {
 			background-image: url("../img/eleventh-block/bg-item.png");
 			background-repeat: no-repeat;
-			background-position: 85% 30%;
+			background-position: 78% 5%;
 		}
 
 		&--bg-s {
 			background-image: url("../img/eleventh-block/bg-item_2.png");
 			background-repeat: no-repeat;
-			background-position: 85% 30%;
+			background-position: 80% 65%;
 			background-size: 30px auto;
 		}
 
 		&--bg-t {
 			background-image: url("../img/eleventh-block/bg-item_3.png");
 			background-repeat: no-repeat;
-			background-position: 85% 30%;
+			background-position: 80% 10%;
 			background-size: 40px auto;
 		}
 
 		&--bg-fh {
 			background-image: url("../img/eleventh-block/bg-item_3.png");
 			background-repeat: no-repeat;
-			background-position: 85% 30%;
+			background-position: 80% 10%;
 			background-size: 40px auto;
 		}
 	}
@@ -88,7 +87,7 @@
 		font-weight: 800;
 		text-transform: uppercase;
 		margin-bottom: 10px;
-		width: 125px;
+		width: 60%;
 	}
 
 	&__info-text {
@@ -104,6 +103,13 @@
 
 	&__s-block-paragraph {
 		font-size: 9px;
+		width: 84%;
+		padding-bottom: 20px;
+	}
+
+	&__s-block-frow {
+		display: block;
+		font-weight: 800;
 	}
 
 	&__dark-txt {

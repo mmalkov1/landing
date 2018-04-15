@@ -4,7 +4,7 @@
             .img{
                 background-image: url(../img/fours-block/img_480.jpg);
                 height: 174px;
-                margin: 50px auto;
+                margin: 50px auto 30px;
             }
 
             .title__first{
@@ -20,7 +20,7 @@
     
             .title__text{
                 line-height: 1.4;
-                margin-left: 30px;
+                margin-left: 10px;
     
                 &-advantage{
                     font-size: 13px;
@@ -38,6 +38,11 @@
                     background-color: $blue;
                 }
             }
+
+            .title__heading {
+                width: 75%;
+                padding-left: 23%;
+            }
             
         
         .advantage{
@@ -48,32 +53,38 @@
             .info {
                 margin: 0 auto 38px;
                 padding-top: 15px;
+                padding-left: 60px;
                 
                 &__heading {
                     font-size: 18px;
-                    margin-bottom: 40px;
+                    margin-bottom: 17px;
                 }
     
                 &__text {
+                    width: 85%;
                     font-size: 14px;
-                    margin-left: 50px;
+                    margin-left: 30px;
     
                     &:before {
                         top: 6px;
-                        left: -50px;
+                        left: -33px;
                         font-size: 40px;
                     }
                 }	
             }	
             .list{
-                margin-left: 10px;
+                margin-left: 22px;
                 margin-top: 30px;
+
+                &__items {
+                    margin-bottom: 20px;
+                }
     
                 &__heading{
-                    font-size: 13px;
+                    font-size: 14px;
                 }
                 &__text{
-                    font-size: 13px;
+                    font-size: 14px;
     
                 }
             }

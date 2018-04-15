@@ -1,21 +1,64 @@
 @media only screen and (min-width: 480px) {
   .eleventh-block {
+    padding: 55px 10px;
+
     &__rewards-item {
-      padding: 13px 90px;
+      padding: 32px 90px 0;
+      
+      &--bg-f {
+        background-size: 74px auto;
+      }
+
+      &--bg-t {
+        background-size: 57px auto;
+      }
+      
+      &--bg-fh {
+        background-size: 57px auto;
+      }
     }
 
     &__f-block-paragraph {
       margin-bottom: 0;
+      font-size: 14px;
+      font-weight: 500;
     }
 
     &__f-title {
-      width: 325px;
+      width: 82%;
+      font-size: 18px;
+    }
+    
+    &__abs-f-block {
+      margin-bottom: 25px;
     }
 
+    &__abs-f-block-title {
+      font-size: 14px;
+    }
+    
+    &__abs-f-block-paragraph {
+      font-size: 14px;
+    }
+  
     &__abs-f-block-title,
     &__abs-f-block-paragraph,
     &__f-block-paragraph {
       width: 275px;
+    }
+    
+    &__s-block-title {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    &__s-block-paragraph {
+      font-size: 14px;
+      width: 100%;
+    }
+
+    &__dark-text {
+      font-size: 12px;
     }
   }
 }

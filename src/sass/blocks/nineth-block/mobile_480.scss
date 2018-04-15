@@ -42,6 +42,10 @@
 			&__item {
 				padding-left: 60px;
 				margin-bottom: 32px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
 			}	
 			
 			&__count {

@@ -1,10 +1,9 @@
 .fifteenth-block {
 	width: 100%;
-	padding: 16px 10px 32px;
+	padding: 12px 10px 32px;
 
 	.info {
-		padding-top: 10px;
-		width: 63%;
+		width: 62%;
 		margin: 0 auto 25px;
 		position: relative;
 
@@ -21,7 +20,7 @@
 	}
 
 	.list {
-		width: 67%;
+		width: 62%;
 		margin: auto;
 		overflow-x: hidden;
 		margin-bottom: 7px;
@@ -30,7 +29,7 @@
 			position: relative;
 			padding-left: 25px;
 			margin: auto;
-			margin-bottom: 20px;
+			margin-bottom: 15px;
 		}	
 		
 		&__count {
@@ -73,7 +72,7 @@
 
 	.quote {
 		width: 78%;
-		margin: 0 auto 35px;
+		margin: 0 auto 20px;
 		font-size: 10px;
 		color: $orange;
 		font-weight: 500;

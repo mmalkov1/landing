@@ -2,12 +2,12 @@
   .third-block {
     
     .info {
-			margin: 0 auto 38px;
-			padding-top: 15px;
+			margin: 0 auto 35px;
+			padding: 45px 0 0 34px;
 			
 			&__heading {
 				font-size: 18px;
-				margin-bottom: 40px;
+				margin-bottom: 34px;
 			}
 
 			&__text {
@@ -20,16 +20,27 @@
 				}
 			}	
 		}	
-    .list__heading {
-			font-size: 24px;
-			
-			.light-text{
-        font-size: 16px;
+		
+		.list {
 
-      }
-    }
-    .list__text {
-      font-size: 13px;
+			&__items {
+				margin-bottom: 22px;
+			}
+
+			&__heading {
+				font-size: 24px;
+				margin-bottom: 5px;
+				
+				.light-text{
+	        font-size: 16px;
+					margin-bottom: 16px;
+	      }
+	    }
+
+	    &__text {
+	      font-size: 13px;
+	      margin-bottom: 15px;
+			}
 		}
 	}
 }

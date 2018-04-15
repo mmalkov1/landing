@@ -33,7 +33,7 @@
 		margin: 0 auto;
 
 		&__text-block {
-			margin-bottom: 25px;
+			margin-bottom: 17px;
 		}
 
 		&__text {
@@ -60,7 +60,7 @@
 	.count {
 		width: 78%;
 		margin: 0 auto 27px;
-		padding: 54px 14%;
+		padding: 50px 14% 40px;
 		background-color: $ftr-b;	
 		color: $f-white;
 		box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15);
@@ -69,7 +69,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			margin-bottom: 20px;
+			margin-bottom: 14px;
 
 			&-text {
 				flex-basis: 40%;

@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 70px 0 150px;
+  padding: 52px 0 43px;
 
   &__info-registration,
   &__ps-info {
@@ -31,7 +31,8 @@
     }
 
     &__button-take-course {
-      @include button (214px, 10px, 10px);
+      @include button (147px, 11px, 7px);
+      margin: 33px auto 0 45px;
     }
 
     &__ps-f-text {

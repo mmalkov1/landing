@@ -1,7 +1,11 @@
 @media only screen and (min-width: 960px) {
 	.eleventh-block {
 		width: 800px;
-		padding: 30px 0;
+		padding: 50px 0;
+		
+		&__f-block {
+			margin-bottom: 85px;
+		}
 
 		&__f-title {
 			font-size: 33px;
@@ -11,9 +15,23 @@
 			font-size: 11px;
 			width: 230px;
 		}
+		
+		&__container {
+			justify-content: center;
+			padding: 35px 0 24px;
+		}
 
 		&__abs-f-block {
 			width: 55%;
+
+			&-title {
+				flex-basis: 28%;
+				font-size: 11px;
+			}
+
+			&-paragraph {
+				font-size: 10px;
+			}
 		}
 
 		&__s-block-title {

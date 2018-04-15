@@ -7,6 +7,21 @@
             font-size: 12px;
         }
 
+        &__img {
+            width: 250px;
+        }
+
+        &__list-item {
+            padding-left: 0;
+            margin-bottom: 48px;
+
+            &:before {
+                left: -30px;
+                top: 27px;
+                font-size: 8px;
+            }
+        }
+
         &__title {
             width: 90%;
             font-size: 38px;

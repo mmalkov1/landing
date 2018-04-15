@@ -1,5 +1,5 @@
 .seventh-block {
-	padding: 25px 10px;
+	padding: 20px 10px;
 
 	&__f-container-info {
 		padding-left: 50px;
@@ -9,7 +9,7 @@
 		font-size: 12px;
 		text-transform: uppercase;
 		font-weight: 800;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 		width: 115px;
 	}
 
@@ -29,7 +29,7 @@
 		}
 
 		&--mb {
-			margin-bottom: 10px;
+			margin-bottom: 23px;
 		}
 	}
 
@@ -38,9 +38,13 @@
 		height: auto;
 	}
 
-	&__s-container-info,
+	&__s-container-info {
+		padding-left: 25px;
+	}
+
 	&__t-container-info {
 		padding-left: 25px;
+		width: 90%;
 	}
 
 	&__s-block-title {
@@ -75,7 +79,7 @@
 		font-size: 9px;
 
 		&--mb {
-			margin-bottom: 10px;
+			margin-bottom: 23px;
 		}
 	}
 

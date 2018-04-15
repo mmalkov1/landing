@@ -2,7 +2,7 @@
     .tenth-block {
         width: 100%;
         padding: 0 10px;
-        margin-top: 50px;  //убрать в конце!!!!!
+        margin-top: 20px; 
     
         .title{
     
@@ -22,7 +22,7 @@
     
         .about{
             width: 65%;
-            margin: 15px auto;
+            margin: 24px auto;
     
             &__title{
                 font-size: 11px;
@@ -40,12 +40,12 @@
             list-style-type: none;
             counter-reset: list;
             width: 70%;
-            margin: 25px auto;
+            margin: 30px auto 25px;
             width: 65%;
     
               &__item{
                 margin-left: 40px;
-                margin-bottom: 18px;
+                margin-bottom: 26px;
                 position: relative;
     
             &:before{

@@ -117,6 +117,7 @@
         }	
 	}
         .order{
+            margin: 0;
     
             &__text{
 				font-family: $main-font;
@@ -127,6 +128,7 @@
                 font-weight: 600;
                 position: relative;
                 width: 25%;
+                top: 26px;
                 
                 &::before{
                     content: '/';

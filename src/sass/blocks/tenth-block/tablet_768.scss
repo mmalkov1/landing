@@ -82,6 +82,7 @@
 			display: flex;
 			flex-flow: row wrap;
 			width: 75%;
+            margin-bottom: 0;
 			
               &__item{
                 margin-left: 30px;
@@ -120,6 +121,7 @@
 		
 	}
         .order{
+            position: relative;
     
             &__text{
 				font-family: $main-font;
@@ -128,10 +130,11 @@
                 color: $orange;
                 line-height: 1.4;
                 font-weight: 600;
-                position: relative;
+                position: absolute;
                 width: 32%;
-                top: 55px;
-                left: -20px;
+                top: 0;
+                left: 180px;
+                margin: 0;
                 
                 &::before{
                     content: '/';
@@ -147,7 +150,7 @@
                 @include button(120px, 9px, 6px);
                 border: none;
                 display: block;
-                margin-left: 0;
+                margin: 0;
                 
             }
         }

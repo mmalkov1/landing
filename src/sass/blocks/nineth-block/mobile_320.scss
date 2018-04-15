@@ -5,7 +5,7 @@
 	.info {
 		padding-top: 10px;
 		width: 63%;
-		margin: 0 auto 25px;
+		margin: 0 auto 30px;
 		position: relative;
 
 		&__bcg {
@@ -41,7 +41,7 @@
 			font-weight: 800;
 			color: $f-black;
 			text-transform: uppercase;
-			margin-bottom: 25px;			
+			margin-bottom: 13px;			
 		}
 
 		&__text {
@@ -63,9 +63,8 @@
 
 	.list {
 		width: 78%;
-		margin: auto;
+		margin: 0 auto 0 17%;
 		overflow-x: hidden;
-		margin-bottom: 7px;
 
 		&__item {
 			position: relative;

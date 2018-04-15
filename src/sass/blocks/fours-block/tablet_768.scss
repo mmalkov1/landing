@@ -13,6 +13,7 @@
       .img {
         background-image: url(../img/fours-block/img_768.jpg);
         height: 280px;
+        margin: 30px auto;
       }
 
       .title {
@@ -50,7 +51,7 @@
         padding-top: 0;
         padding-left: 0;
         flex-basis: 33%;
-        margin-top: 20px;
+        margin-top: 0;
         margin-bottom: 10px;
 
         &__heading {

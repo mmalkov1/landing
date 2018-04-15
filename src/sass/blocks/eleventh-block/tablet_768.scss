@@ -3,6 +3,7 @@
     width: 640px;
     margin: 0 auto;
     position: relative;
+    padding: 38px 0;
 
     &__f-title {
       font-size: 26px;
@@ -29,15 +30,22 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
+      padding: 14px 0 24px; 
     }
 
     &__abs-f-block-title,
     &__abs-f-block-paragraph {
-      flex-basis: 35%;
+      flex-basis: 40%;
+    }
+
+    &__abs-f-block-paragraph {
+    	margin: 0;
+    	font-size: 8px;
     }
 
     &__abs-f-block-title {
       font-size: 11px;
+      margin: 0;
     }
 
     &__abs-f-block {
@@ -55,6 +63,29 @@
     &__rewards-item {
       flex-basis: 25%;
       padding: 0;
+
+      &--bg-s {
+      	background-position: 87% 28%;
+      }
+
+      &--bg-f {
+      	background-size: 58px auto;
+
+        .eleventh-block__container-text {
+          width: 85%;
+        }
+      }
+
+      &--bg-t {
+      	background-size: 42px auto;
+      	background-position: 84% 25%;
+      }
+
+      &--bg-fh {
+      	background-size: 42px auto;
+      	background-position: 84% 25%;
+      }
+
     }
 
     &__pt {
@@ -71,6 +102,22 @@
 
     &__s-block-title {
       width: 100%;
+      font-size: 9px;
+      padding: 0 67px 5px 0;
+
+      &:first-child {
+      	padding: 0 0 5px 0;
+      }
+    }
+
+    &__s-block-frow {
+    	display: inline;
+    	font-weight: 400;
+    	font-size: 8px;
+    }
+
+    &__s-block-paragraph {
+    	font-size: 8px;
     }
   }
 }

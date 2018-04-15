@@ -56,7 +56,6 @@
 		margin: 30px auto;
 
 		.info {
-			padding-top: 10px;
 			padding-left: 25px;
 			margin: 0 auto 25px;
 	
@@ -66,7 +65,7 @@
 				font-weight: 800;
 				color: $f-black;
 				text-transform: uppercase;
-				margin-bottom: 25px;	
+				margin-bottom: 12px;	
 				font-family: $main-font;	
 				background-color: #000;
 				color: #fff;	
@@ -100,14 +99,14 @@
 				font-size: 9px;
 				text-transform: uppercase;
 				font-weight: 800;
-				margin-bottom: 12px;
+				margin-bottom: 10px;
 				font-family: $main-font;
 				
 			}
 			&__text{
 				font-size: 9px;
 				font-family: $main-font;
-				margin-bottom: 22px;
+				margin-bottom: 4px;
 				line-height: 1.4;
 
 			}

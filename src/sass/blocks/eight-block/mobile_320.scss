@@ -1,6 +1,6 @@
 .eight-block {
 	width: 100%;
-	padding: 21px 10px 25px;
+	padding: 0 10px 25px;
 
 	.first-container {
 
@@ -8,6 +8,10 @@
       display: block;
       width: 180px;
       margin: 0 auto;
+
+      &-block {
+        padding-bottom: 10px;
+      }
     }
 
     &__description {

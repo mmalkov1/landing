@@ -2,7 +2,7 @@
   .third-block {
     width: 640px;
     margin: auto;
-    padding: 55px 0;
+    padding: 35px 0 55px;
     display: flex;
 		justify-content: space-between;
 		
@@ -41,6 +41,7 @@
 				
         &__items {
 					flex-basis: 45%;
+          margin-bottom: 0;
 					
           &:nth-child(2) {
             order: 4;
@@ -57,6 +58,7 @@
 				
         &__heading {
           font-size: 17px;
+          margin-top: 0;
 				}
 				
         &__text {

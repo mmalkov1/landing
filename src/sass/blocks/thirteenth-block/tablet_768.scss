@@ -5,10 +5,15 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        padding: 50px 0;
+        padding: 25px 0 50px;
 
     &__f-block {
-        flex-basis: 30%;
+        flex-basis: 36%;
+        margin-left: 0;
+
+        &-title {
+            font-size: 27px;
+        }
     }
     &__container-img {
         flex-basis: 30%;
@@ -16,9 +21,7 @@
     &__s-block {
         flex-basis: 17%;
     }
-    &__f-block-title {
-        font-size: 22px;
-    }
+
     &__f-block-paragraph {
         font-size: 9px;
         width: 170px;

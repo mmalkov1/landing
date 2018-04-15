@@ -27,7 +27,7 @@
 		line-height: 1.4;
 		font-weight: 600;
 		position: relative;
-		margin: 35px auto 15px;
+		margin: 22px auto 15px;
 			
 		&::before{
 			content: '/';
@@ -40,7 +40,6 @@
 	}
 
 	&__title {
-		width: 175px;
 		font-weight: 800;
 		margin: 0 auto;
 		margin-bottom: 15px;
@@ -57,7 +56,7 @@
 		font-size: 9px;
 		width: 185px;
 		font-weight: 800;
-		padding-left: 30px;
+		padding-left: 10px;
 		position: relative;
 		margin: 0 auto 35px;
 
@@ -86,19 +85,19 @@
 	}
 
 	&__list-item {
-		padding-left: 30px;
+		padding-left: 55px;
 		margin-bottom: 18px;
 		position: relative;
 
 		&:before{
-			content: "[00"  counter(list) "]";
+			content: "[ 0 0 "  counter(list) " ]";
 			counter-increment: list;
 			transform: rotate(-90deg);
 			background-color: $orange;
 			color: #fff;
 			font-size: 7px;
-			left: 5px;
-			top: 8px;
+			left: 30px;
+			top: 15px;
 			position: absolute;
 		}
 	}
@@ -106,9 +105,11 @@
 	&__list-title {
 		font-size: 9px;
 		font-weight: 800;
+		padding-bottom: 5px;
 	}
 
 	&__list-paragraph {
 		font-size: 9px;
+		width: 88%;
 	}
 }
